@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>{% block title %}{{ config.title }}{% endblock title %}</title>
+    <link rel="stylesheet" href="{{ get_url(path="style.css", trailing_slash=false) }}">
+    {% if config.generate_feed %}
+    <link rel="alternate" type="application/atom+xml" title="RSS"
+        href="{{ get_url(path="atom.xml", trailing_slash=false) }}">
+    {% endif %}
+</head>
+
+<body>
+    <div class="container">
+        <h1 class="description">{{ config.description }}</h1>
+
+        <div class="content">
+            <nav class="navbar">
+                <ol>
+                    <ul><a href="/work">Work</a></ul>
+                    <ul><a href="/playground">Playground</a></ul>
+                    <ul><a href="/about">About Me</a></ul>
+                    <ul><a href="/mapotofu">About Mapotofu</a></ul>
+                </ol>
+            </nav>
+
+            <main>
+                {% block content %}
+                {% set section = get_section(path="work/_index.md") %}
+                {% for page in section.pages %}
+                <article>
+                    <a href="{{ page.permalink }}">
+                        <div class="post-meta">
+                            <img src="{{ page.extra.image }}" alt="">
+                        </div>
+                        <div class="post">
+                            <span class="post-title">
+                                {{ page.title }}
+                            </span>
+                            <span class="post-desp">
+                                {{ page.summary | safe }}
+                            </span>
+                            <div class="post-tag">
+                                {% for category in page.taxonomies.categories %}
+                                <a href="{{ get_taxonomy_url(kind="categories", name=category) }}">
+                                    {{ category }}
+                                </a>
+                                {% endfor %}
+                            </div>
+                        </div>
+                    </a>
+                </article>
+                {% endfor %}
+                {% endblock content %}
+            </main>
+        </div>
+    </div>
+</body>
+
+</html>
