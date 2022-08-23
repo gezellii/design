@@ -1,7 +1,6 @@
 +++
-[taxonomies]
-categories = ["label1"]
 [extra]
+labels = ["label_0"]
 image = "https://avatars.githubusercontent.com/u/583231"
 +++
 

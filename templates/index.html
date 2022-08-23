@@ -43,11 +43,9 @@
                             <span class="post-desp">
                                 {{ page.summary | safe }}
                             </span>
-                            <div class="post-tag">
-                                {% for category in page.taxonomies.categories %}
-                                <a href="{{ get_taxonomy_url(kind="categories", name=category) }}">
-                                    {{ category }}
-                                </a>
+                            <div class="post-label">
+                                {% for label in page.extra.labels %}
+                                <span class="label">{{ label }}</span>
                                 {% endfor %}
                             </div>
                         </div>
