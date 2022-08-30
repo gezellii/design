@@ -1,0 +1,32 @@
+@import "normalize";
+
+// color
+$text-color: rgba(0, 0, 0, 0.7);
+$bg-color: #F5F5F5;
+$main-color: #111;
+$shadow-color: #cacaca;
+$link-color: #EE4D20;
+// body
+$body-width: 100%;
+// mobile
+$mobile-width: 600px !default;
+$mobile-navbar-height: 50px !default;
+// font
+$font-size: 18px;
+$font-family: sans-serif;
+
+@mixin min-screen($min-width: $mobile-width) {
+    @media screen and (min-width: $min-width) {
+        @content;
+    }
+}
+
+@mixin max-screen($max-width: $body-width) {
+    @media screen and (max-width: $max-width) {
+        @content;
+    }
+}
+
+@import "base";
+@import "header";
+@import "nav";

@@ -1,7 +1,6 @@
 # The URL the site will be built for
 base_url = "https://design.mapotofu.org"
 title = "Lily's design dashboard"
-description = "Hi! Lily is a Product Designer based in Singapore."
 
 # Whether to automatically compile all Sass files in the sass directory
 compile_sass = true

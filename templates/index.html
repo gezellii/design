@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>{% block title %}{{ config.title }}{% endblock title %}</title>
-    <link rel="stylesheet" href="{{ get_url(path="style.css", trailing_slash=false) }}">
+    <link rel="stylesheet" href="{{ get_url(path="style.css", trailing_slash=false) | safe }}">
     {% if config.generate_feed %}
     <link rel="alternate" type="application/atom+xml" title="RSS"
         href="{{ get_url(path="atom.xml", trailing_slash=false) }}">
@@ -15,7 +15,9 @@
 
 <body>
     <div class="container">
-        <h1 class="description">{{ config.description }}</h1>
+        <header>
+            Hi! <span>Lily</span> is a Product Designer based in Singapore.
+        </header>
 
         <div class="content">
             <nav class="navbar">
