@@ -43,7 +43,7 @@
                                 {{ page.title }}
                             </span>
                             <span class="post-desp">
-                                {{ page.summary | safe }}
+                                {{ page.extra.summary | safe }}
                             </span>
                             <div class="post-label">
                                 {% for label in page.extra.labels %}
