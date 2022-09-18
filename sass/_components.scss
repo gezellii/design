@@ -21,6 +21,15 @@ nav {
 
         ul {
             padding-left: 8px;
+
+            a:hover {
+                color: $link-color;
+            }
+            ::before {
+                content: "";
+                border-left: solid 4px $link-color;
+                margin: 0 1rem;
+            }
         }
     }
 }
