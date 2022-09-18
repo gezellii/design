@@ -1,4 +1,5 @@
 +++
+title = "Joybug Web/App Revamp"
 [extra]
 labels = ["E-commerce", "Three Markets"]
 image = "https://avatars.githubusercontent.com/u/583231"
@@ -10,4 +11,4 @@ This is a full revamp that covers the core shopping flow, I will elaborate two p
 """
 +++
 
-# Joybuy web/App Revamp
+# Joybuy Web/App Revamp
