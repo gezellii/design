@@ -25,7 +25,6 @@
                     <ul><a href="/work">Work</a></ul>
                     <ul><a href="/playground">Playground</a></ul>
                     <ul><a href="/about">About Me</a></ul>
-                    <ul><a href="/mapotofu">About Mapotofu</a></ul>
                 </ol>
             </nav>
 
@@ -34,24 +33,24 @@
                 {% set section = get_section(path="work/_index.md") %}
                 {% for page in section.pages %}
                 <article>
-                    <a href="{{ page.permalink }}">
-                        <div class="post-img">
-                            <img src="{{ page.extra.image }}" alt="">
-                        </div>
-                        <div class="post">
-                            <span class="post-title">
+                    <div class="post-img">
+                        <img src="{{ page.extra.image }}" alt="">
+                    </div>
+                    <div class="post">
+                        <span class="post-title">
+                            <a href="{{ page.permalink }}">
                                 {{ page.title }}
-                            </span>
-                            <span class="post-desp">
-                                {{ page.extra.summary | safe }}
-                            </span>
-                            <div class="post-label">
-                                {% for label in page.extra.labels %}
-                                <span class="label">{{ label }}</span>
-                                {% endfor %}
-                            </div>
+                            </a>
+                        </span>
+                        <span class="post-desp">
+                            {{ page.extra.summary | safe }}
+                        </span>
+                        <div class="post-label">
+                            {% for label in page.extra.labels %}
+                            <span class="label">{{ label }}</span>
+                            {% endfor %}
                         </div>
-                    </a>
+                    </div>
                 </article>
                 {% endfor %}
                 {% endblock content %}
