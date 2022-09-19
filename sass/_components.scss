@@ -1,9 +1,10 @@
+html {
+    font-family:Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
 header {
     font-size: 2em;
     padding: 24px 32px 24px 32px;
-    > span {
-        font-family: serif;
-    }
 }
 
 .content {
@@ -53,7 +54,7 @@ article {
         width: 512px;
         max-height: 256px;
         overflow-y: hidden;
-        background-color: white;
+        background-color: #FAFAFA;
         text-align: left;
         text-overflow: ellipsis;
         overflow-wrap: break-word;
@@ -62,7 +63,7 @@ article {
 
         div {
             padding: 20px 20px 0px 20px;
-            font-size: 0.85em;
+            font-size: 16px;
         }
 
         .post-title {
@@ -70,19 +71,26 @@ article {
         }
 
         .post-desp {
+            padding-top: 12px;
             margin-bottom: auto;
+            font-weight: 200;
         }
 
         .post-label {
             margin-top: auto;
             padding-bottom: 20px;
+
+            a:hover span {
+                background-color: $label-color;
+                color: white;
+            }
         }
     }
 }
 
 .label {
-    border: 0.1em solid $label-color;
-    border-radius: 0.1em;
+    border: 0.5px solid $label-color;
+    border-radius: 2px;
     color: $label-color;
     padding: 0px 8px;
 }

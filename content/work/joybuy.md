@@ -1,5 +1,5 @@
 +++
-title = "Joybug Web/App Revamp"
+title = "Joybuy Web/App Revamp"
 [extra]
 labels = ["E-commerce", "Three Markets"]
 image = "https://avatars.githubusercontent.com/u/583231"
