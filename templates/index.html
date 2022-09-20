@@ -20,7 +20,7 @@
             Hi! Lily is a Product Designer based in Singapore.
         </header>
 
-        <div class="content">
+        <main>
             <nav class="navbar">
                 <ol>
                     <ul><a href="/">Work</a></ul>
@@ -29,7 +29,7 @@
                 </ol>
             </nav>
 
-            <main>
+            <section>
                 {% block content %}
                 {% set section = get_section(path="work/_index.md") %}
                 {% for page in section.pages %}
@@ -55,8 +55,8 @@
                 </article>
                 {% endfor %}
                 {% endblock content %}
-            </main>
-        </div>
+            </section>
+        </main>
     </div>
 </body>
 

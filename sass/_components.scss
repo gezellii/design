@@ -8,14 +8,20 @@ header {
     padding: 24px 32px 24px 32px;
 }
 
-.content {
-    padding: 24px 32px 24px 32px;
+main {
+    padding: 24px 12px 24px 12px;
     display: flex;
+    flex-direction: row;
+}
+main::after {
+    flex: 1;
+    content: "";
 }
 
+
 nav {
-    margin: 0;
-    flex-basis: content;
+    margin-left: auto;
+    flex: 1;
 
     ol {
         padding-left: 8px;
@@ -27,32 +33,32 @@ nav {
             a:hover {
                 color: $link-color;
             }
-            ::before {
-                content: "";
-                border-left: solid 4px $link-color;
-                margin: 0 1rem;
-            }
+        }
+        ul::before {
+            content: "";
+            border-left: solid 4px $link-color;
+            margin: 0 1rem;
         }
     }
 }
 
-main {
-    margin: 0 32px 0 32px;
+section {
+    margin: 0 12px;
 }
 
 article {
-    margin: 0 32px 24px 32px;
+    margin: 0 12px 24px 12px;
     display: flex;
     flex-wrap: wrap;
 
     img {
-        width: 512px;
+        width: 480px;
         height: 256px;
         object-fit: fill;
     }
 
     .post {
-        width: 512px;
+        width: 480px;
         max-height: 256px;
         overflow-y: hidden;
         background-color: #FAFAFA;
