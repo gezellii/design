@@ -1,8 +1,9 @@
-html {
-    font-family:Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+body {
+    font-family: "Dosis";
 }
 
 header {
+    font-family: "Open Sans";
     font-size: 2em;
     padding: 24px 32px 24px 32px;
 }
@@ -68,12 +69,13 @@ article {
 
         .post-title {
             font-size: 1.5em;
+            font-family: "Open Sans";
         }
 
         .post-desp {
             padding-top: 12px;
             margin-bottom: auto;
-            font-weight: 200;
+            font-weight: lighter;
         }
 
         .post-label {
