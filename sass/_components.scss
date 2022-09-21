@@ -22,6 +22,7 @@ main::after {
 nav {
     margin-left: auto;
     flex: 1;
+    font-family: "Open Sans";
 
     ol {
         padding-left: 8px;
@@ -37,7 +38,7 @@ nav {
         ul::before {
             content: "";
             border-left: solid 4px $link-color;
-            margin: 0 1rem;
+            margin: 0 8px 0 4px;
         }
     }
 }
@@ -85,6 +86,7 @@ article {
         }
 
         .post-label {
+            font-family: "Open Sans";
             margin-top: auto;
             padding-bottom: 20px;
 
