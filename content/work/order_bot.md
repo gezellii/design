@@ -35,13 +35,13 @@ Chatbot is characterised by a large amount of data and small amount of informati
 
 Given the above information, we decided to adopt a research method `based on data analysis` and `supplemented by usability test`.
 
-## *Step 1*  Mapping the User Journey and Find Out The Data We Need
+## Step 1 Mapping the User Journey and Find Out The Data We Need
 
 ![image]()
 
 After mapping out the user journey I found that I would like to have the traffic, drop rate, resolution rate, and CSAT of each node based on different flows.
 
-## *Step 2*  Hypothesis from Data and Test Them
+## Step 2 Hypothesis from Data and Test Them
 
 ### Anomalies
 
@@ -73,13 +73,13 @@ Pair each hypothesis with one or more ways to verify:
 
 ![image]()
 
-## *Step 3*  Verify the Hypothesis and Propose Design Solutions
+## Step 3 Verify the Hypothesis and Propose Design Solutions
 
 Get validation result:
 
 ![image]()
 
-## *Step 4*  Craft Design Solutions
+## Step 4 Craft Design Solutions
 
 ![image]()
 ![image]()
@@ -87,7 +87,7 @@ Get validation result:
 ![image]()
 ![image]()
 
-## *Step 5*  A/B Test Design Options to Get the Final Design
+## Step 5 A/B Test Design Options to Get the Final Design
 
 With all A/B test results, the final design we get has the highest performance of + 3.71% in resolution rate, - 6.82% in drop rate, -2.73% in transfer to live agent rate. [Link](https://docs.google.com/spreadsheets/d/1d4jLm2_o1jYWMGqTmbin11taxrZAmwDhVp9AEtZ5iZA/edit?usp=sharing)
 
