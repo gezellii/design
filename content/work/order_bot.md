@@ -11,23 +11,33 @@ In this project we reviewed the UX of a core task bot and raised solution rate b
 
 # Chatbot Order Selection Revamp
 
-*Shopee, 2022*
+<p class="time">@Shopee, 2022</p>
 
-## Background
+<span class="intro">
+  <span>
 
-Shopee Chatbot serves 250k users per day in 8+ regions, answering all customer inquiries about orders, logistics, post-sale service, and so on. Chatbot saves an excellent amount of the cost for customer service.
+  ## Background
 
-In this project, we aimed to bring down the **drop rate, transfer to live agent rate** and raise the **resolution rate** and **CSAT** of Order Selection flow.
+  Shopee Chatbot serves 250k users per day in 8+ regions, answering all customer inquiries about orders, logistics, post-sale service, and so on. Chatbot saves an excellent amount of the cost for customer service.
 
-## My Role
+  In this project, we aimed to bring down the **drop rate, transfer to live agent rate** and raise the **resolution rate** and **CSAT** of Order Selection flow.</td>
+  </span>
+  <span>
 
-Research:
+  ## My Role
 
-* Journey mapping, Data analysis, User testing
+  Research:
 
-Design:
+  * Journey mapping, Data analysis, User testing
 
-* UI/UX design, UX writing
+  Design:
+
+  * UI/UX design, UX writing</td>
+  </span>
+</span>
+
+
+
 
 ## Choose a Research Method
 
