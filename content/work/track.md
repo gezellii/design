@@ -11,8 +11,7 @@ I work with a data PM to redesign the platform as part of the Common Traffic Rev
 +++
 
 # Tracking Management System
-
-*@Shopee, 2021*
+<p class="time">@Shopee, 2021</p>
 
 ### What is Tracking?
 

@@ -14,13 +14,19 @@ This is a full revamp that covers the core shopping flow, I will elaborate two p
 
 # JOYBUY Revamp
 
-*@JD International, 2016-2017*
+<p class="time">@JD International, 2016-2017</p>
 
-### Background
+<span class="intro">
+<span class="bg">
+
+## Background
 
 Joybuy is JD.com's international site, which was launched in 2015. When the initial version operated until the end of 2016, with the sharp rise in the number of users, we noticed that the site performance dropping and the overall user experience was not good, so we launched a revamp to improve the overall user experience.
 
-### My Role
+</span>
+<span class="role">
+
+## My Role
 
 Research:
 
@@ -29,6 +35,9 @@ Site audit, Sitemap, Data analysis
 Design:
 
 Prototyping, UX design, Branding
+  
+</span>
+</span>
 
 ## Site Audit
 
@@ -68,11 +77,11 @@ At the same time, we also observed some UI issues during the audit, which we dec
 
 3 personas were outlined to represent the core audiences:
 
-| EN | RU | ES |
-|:-  |:-  |:-  |
-| ![image]() | ![image]() | ![image]() |
-| **ISABELLA, 27** | **IVANOVICH, 35** | **CAMILA, 23** |
-| Location: London, UK | Location: Moscow, Russia | Location: Madrid, Spain |
+| EN                                                                                                  | RU                                                                                               | ES                                                                                  |
+| :-------------------------------------------------------------------------------------------------- | :----------------------------------------------------------------------------------------------- | :---------------------------------------------------------------------------------- |
+| ![image]()                                                                                          | ![image]()                                                                                       | ![image]()                                                                          |
+| **ISABELLA, 27**                                                                                    | **IVANOVICH, 35**                                                                                | **CAMILA, 23**                                                                      |
+| Location: London, UK                                                                                | Location: Moscow, Russia                                                                         | Location: Madrid, Spain                                                             |
 | Enjoy adding pops of colours to her home. Appreciates quality products, but at an affordable price. | Keen to buy some cheap accessories online for his motorcycle. Interested in electronic products. | A young worker with a passion for life. Like colourful trinkets and trendy clothes. |
 
 **Conclusion**: Based on all findings, we feel that the top priorities are the *Homepage & Category*, and the *Checkout & Registration*, Account & Order system should follow as phase 2.
