@@ -1,8 +1,9 @@
 +++
 title = "Shopee Order Bot"
+date = "2022-09-21"
 [extra]
 labels = ["Data Driven", "UX Writing"]
-image = "https://avatars.githubusercontent.com/u/583231"
+image = "https://user-images.githubusercontent.com/52693877/197339730-f47cf693-be41-4261-bea7-991190614ab3.png"
 summary = """Shopee Chatbot is an assistant bot in the Shopee e-commerce app, to answer users’ questions before they decide to access the live agent service.
 
 In this project we reviewed the UX of a core task bot and raised solution rate by 3.71%.
