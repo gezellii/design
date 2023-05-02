@@ -18,18 +18,38 @@
 <body>
     <div class="container">
         <header>
-            Hi! Lily is a Product Designer based in Singapore.
+            <ul>
+                <li><a href="">Project</a></li>
+                <li><a href="">Playground</a></li>
+                <li><a href="">About Me</a></li>
+            </ul>
         </header>
 
         <main>
-            <nav class="navbar">
-                <ol>
-                    <ul><a href="/">Work</a></ul>
-                    <ul><a href="/playground">Playground</a></ul>
-                    <ul><a href="/about">About Me</a></ul>
-                </ol>
-            </nav>
-
+            <div class="cover"><img src="cover.jpg" alt="cover"></div>
+            <div class="greet">Hi there!</div>
+            <div class="intro">
+                <p>
+                    This is Lily, a product designer with engineering background, currently based in Singapore.
+                </p>
+                <p>
+                    During the past 8 years, I've been working under the Designer title, but as a mixed role of researcher, designer and product manager.
+                </p>
+                <p>
+                    I try my best to deliver smooth user experience to users across the world (Mainland China - Russia - Europe - Middle East - South East Asia).
+                </p>
+                <p>
+                    When I'm not working, I help with some open sources project on <a href="https://github.com/lilylee1874">GitHub</a>.
+                </p>
+            </div>
+            <div class="title">My Journey</div>
+            <div class="title">My Principles</div>
+                <div class="principle">
+                    <p>
+                        For me, design is about problem solving, saving cost and helping people. And everything we can imagine is possible when we have clearly defined goals, strong design, strategy and assemble a talented team.
+                    </p>
+                </div>
+            <div class="title">My Projects</div>
             <section>
                 {% block content %}
                 {% set section = get_section(path="work/_index.md") %}
@@ -44,13 +64,13 @@
                                 {{ page.title }}
                             </a>
                         </div>
-                        <div class="post-desp">
-                            {{ page.extra.summary | safe }}
-                        </div>
                         <div class="post-label">
                             {% for label in page.extra.labels %}
                             <a><span class="label">{{ label }}</span></a>
                             {% endfor %}
+                        </div>
+                        <div class="post-desp">
+                            {{ page.extra.summary | safe }}
                         </div>
                     </div>
                 </article>

@@ -1,19 +1,54 @@
 body {
     font-family: "Inter";
     font-weight: lighter;
+    font-size: 24px;
 }
 
 header {
-    font-family: "Open Sans";
-    font-size: 2em;
-    padding: 24px 32px 24px 32px;
+    ul {
+        display: flex;
+        justify-content: flex-end;
+        list-style-type: none;
+        padding-right: 15px;
+
+        li {
+            padding: 35px 50px;
+        }
+    }
 }
 
-p.time {
-    text-align: center;
-    margin-top: 0%;
-    font-size: 14px;
-    font-style: italic;
+.greet {
+    font-size: 96px;
+    font-weight: 500;
+    color: #58194A;
+    margin: 42px 152px;
+}
+
+.intro {
+    margin: 0 215px;
+    width: 760px;
+
+    a {
+        text-decoration-line: underline;
+    }
+}
+
+.cover {
+    float: right;
+    margin-top: -75px;
+    margin-right: 65px;
+}
+
+.title {
+    font-size: 96px;
+    font-weight: 700;
+    color: rgba($color: #3D235E, $alpha: 0.1);
+    margin-left: -21px;
+}
+
+.principle {
+    width: 484px;
+    margin: 74px 215px;
 }
 
 h1 {
@@ -21,83 +56,31 @@ h1 {
     margin-bottom: 0%;
 }
 
-.intro {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-}
-
-.bg {
-    width: 55%;
-}
-
-.role {
-    width: 35%;
-}
-
-main {
-    padding: 24px 12px 24px 12px;
-    display: flex;
-    flex-direction: row;
-}
-
-main::after {
-    flex: 1;
-    content: "";
-}
-
-
-nav {
-    margin-left: auto;
-    margin-right: 24px;
-    flex: 1;
-    font-family: "Open Sans";
-
-    ol {
-        padding-left: 8px;
-        margin: 0;
-
-        ul {
-            padding-left: 8px;
-
-            a:hover {
-                color: $link-color;
-            }
-        }
-
-        ul::before {
-            content: "";
-            border-left: solid 4px $link-color;
-            margin: 0 8px 0 4px;
-        }
-    }
-}
-
 section {
-    margin: 0 12px;
+    margin: 104px 65px;
 }
 
 article {
-    margin: 0 12px 24px 12px;
     display: flex;
-    flex-wrap: wrap;
-
+    flex-direction: row;
+    justify-content: center;
+    column-gap: 0px;
+    margin: 48px 0;
+    
     img {
-        width: 480px;
-        height: 256px;
+        height: 406px;
+        width: 634px;
         object-fit: fill;
     }
 
     .post {
-        width: 480px;
-        max-height: 256px;
+        width: 697px;
+        max-height: 406px;
         overflow-y: hidden;
         background-color: #FAFAFA;
         text-align: left;
         text-overflow: ellipsis;
         overflow-wrap: break-word;
-        display: flex;
-        flex-direction: column;
 
         div {
             padding: 20px 20px 0px 20px;
@@ -111,13 +94,11 @@ article {
 
         .post-desp {
             padding-top: 12px;
-            margin-bottom: auto;
             font-weight: lighter;
         }
 
         .post-label {
             font-family: "Open Sans";
-            margin-top: auto;
             padding-bottom: 20px;
 
             a:hover span {
@@ -140,7 +121,7 @@ code {
     background-color: $text-bg-color;
 }
 
-.post {
+.content {
     width: 75%;
     margin: 0 auto;
 }
