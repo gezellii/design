@@ -2,7 +2,7 @@
 title = "Tracking Management System"
 date = "2021-07-21"
 [extra]
-labels = ["Internal Tools", "Data Product"]
+labels = ["Internal Portal", "Web"]
 image = "https://user-images.githubusercontent.com/52693877/197339732-bac9fa89-e4af-4c8c-8a39-42dabcbdcba5.png"
 summary = """Tracking Management System is a centralized platform to create, test and monitor traffic data for 65+ products.
 

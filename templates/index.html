@@ -19,13 +19,14 @@
     <div class="container">
         <header>
             <ul>
-                <li><a href="#project">Project</a></li>
+                <li><a href="/#project">Project</a></li>
                 <li><a href="#">Playground</a></li>
-                <li><a href="#">About Me</a></li>
+                <li><a href="/">About Me</a></li>
             </ul>
         </header>
 
         <main>
+            {% block content %}
             <div class="cover"><img src="cover.jpg" alt="cover" loading="lazy"></div>
             <div class="greet">Hi there!</div>
             <div class="intro">
@@ -57,7 +58,6 @@
                 </div>
             <div class="title" id="project">My Projects</div>
             <section>
-                {% block content %}
                 {% set section = get_section(path="work/_index.md") %}
                 {% for page in section.pages %}
                 <article>
@@ -76,13 +76,13 @@
                             {% endfor %}
                         </div>
                         <div class="post-desp">
-                            {{ page.extra.summary | safe }}
+                            {{ page.extra.summary | markdown | safe }}
                         </div>
                     </div>
                 </article>
                 {% endfor %}
-                {% endblock content %}
             </section>
+            {% endblock content %}
         </main>
     </div>
 </body>
