@@ -26,7 +26,7 @@ header {
 
 .intro {
     margin: 0 215px;
-    width: 760px;
+    min-width: 420px;
 
     a {
         text-decoration-line: underline;
@@ -47,8 +47,29 @@ header {
 }
 
 .principle {
-    width: 484px;
-    margin: 74px 215px;
+    margin: 50px 215px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    column-gap: 64px;
+    align-items: flex-start;
+
+    p {
+        min-width: 240px;
+        margin: 24px 0;
+    }
+
+    .item {
+        min-width: 300px;
+        list-style-type: none;
+
+        li {
+            background-color: #EDEFF4;
+            border-radius: 8px;
+            padding: 8px 8px;
+            margin: 24px 0;
+        }
+    }
 }
 
 h1 {
