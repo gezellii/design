@@ -27,7 +27,7 @@
 
         <main>
             {% block content %}
-            <div class="cover"><img src="cover.jpg" alt="cover" loading="lazy"></div>
+            <div class="cover"><img src="cover_girl.png" alt="cover" loading="lazy"></div>
             <div class="greet">Hi there!</div>
             <div class="intro">
                 <p>
@@ -78,10 +78,22 @@
                         For me, design is about problem solving, saving cost and helping people. And everything we can imagine is possible when we have clearly defined goals, strong design, strategy and assemble a talented team.
                     </p>
                     <div class="item">
-                        <li>empty</li>
-                        <li>empty</li>
-                        <li>empty</li>
-                        <li>empty</li>
+                        <li>
+                            <object data="account.svg" type="image/svg+xml"></object>
+                            People are the biggest value
+                        </li>
+                        <li>
+                            <object data="chat.svg" type="image/svg+xml"></object>
+                            Good communication leads to success
+                        </li>
+                        <li>
+                            <object data="refresh.svg" type="image/svg+xml"></object>
+                            Flexibility makes good cooperation
+                        </li>
+                        <li>
+                            <object data="star.svg" type="image/svg+xml"></object>
+                            Do our best, then trade off
+                        </li>
                     </div>
                 </div>
             <div class="title" id="project">My Projects</div>
@@ -90,7 +102,7 @@
                 {% for page in section.pages %}
                 <article>
                     <div class="post-img">
-                        <img src="{{ page.extra.image }}" alt="">
+                        <img src="{{ page.extra.image }}" alt="" loading="lazy">
                     </div>
                     <div class="post">
                         <div class="post-title">

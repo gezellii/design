@@ -1,10 +1,13 @@
 body {
     font-family: "Inter";
-    font-weight: lighter;
+    font-weight: 400;
     font-size: 24px;
 }
 
 header {
+    width: 1600px;
+    margin: 0 auto;
+
     ul {
         display: flex;
         justify-content: flex-end;
@@ -17,16 +20,25 @@ header {
     }
 }
 
+main {
+    width: 1600px;
+    margin: 0 auto;
+}
+
 .greet {
     font-size: 96px;
     font-weight: 500;
     color: #58194A;
-    margin: 42px 152px;
+    margin: 42px 0;
 }
 
 .intro {
-    margin: 0 215px;
+    margin: 0 128px;
     min-width: 420px;
+
+    p {
+        margin: 48px 0;
+    }
 
     a {
         text-decoration-line: underline;
@@ -36,22 +48,21 @@ header {
 .cover {
     float: right;
     margin-top: -75px;
-    margin-right: 65px;
 }
 
 .title {
     font-size: 96px;
     font-weight: 700;
     color: rgba($color: #3D235E, $alpha: 0.1);
-    margin-left: -21px;
-    margin-top: 74px;
+    margin-left: -72px;
+    margin-top: 72px;
 }
 
 .journey {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 74px 215px;
+    margin: 72px 128px;
 
     .line {
         border-top: 1px solid rgba($color: #000000, $alpha: 0.4);
@@ -59,7 +70,7 @@ header {
     }
 
     .work {
-        width: 240px;
+        width: 200px;
     }
 
     .company {
@@ -89,7 +100,7 @@ header {
 }
 
 .principle {
-    margin: 50px 215px;
+    margin: 48px 128px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -97,19 +108,28 @@ header {
     align-items: flex-start;
 
     p {
-        min-width: 240px;
-        margin: 24px 0;
+        min-width: 428px;
+        max-width: 484px;
+        margin: 20px 0;
     }
 
     .item {
-        min-width: 300px;
         list-style-type: none;
-
+        width: 716px;
+        
         li {
-            background-color: #EDEFF4;
-            border-radius: 8px;
-            padding: 8px 8px;
-            margin: 24px 0;
+            border: 1px solid #7C4467;
+            border-radius: 40px;
+            background-color: #FFF;
+            font-size: 32px;
+            line-height: 100%;
+            color: rgba($color: #000000, $alpha: 0.87);
+            padding: 20px 32px;
+            margin: 20px 0;
+            display: flex;
+            align-items: center;
+            column-gap: 16px;
+            overflow: visible;
         }
     }
 }
@@ -129,6 +149,7 @@ article {
     justify-content: center;
     column-gap: 0px;
     margin: 48px 0;
+    filter: drop-shadow(10px 10px 20px rgba(234, 229, 215, 0.4));
     
     img {
         height: 406px;
@@ -137,50 +158,52 @@ article {
     }
 
     .post {
-        width: 697px;
+        width: 643px;
         max-height: 406px;
-        overflow-y: hidden;
-        background-color: #FAFAFA;
+        background-color: #FFF;
         text-align: left;
         text-overflow: ellipsis;
         overflow-wrap: break-word;
 
-        div {
-            padding: 20px 20px 0px 20px;
-            font-size: 16px;
-        }
-
         .post-title {
-            font-size: 1.5em;
-            font-family: "Open Sans";
-        }
-
-        .post-desp {
-            padding-top: 12px;
-            font-weight: lighter;
-
-            ul {
-                padding-left: 24px;
-            }
+            margin: 48px 48px 20px 48px;
+            font-size: 24px;
+            line-height: 32px;
+            color: #000000;
+            font-weight: 600;
         }
 
         .post-label {
-            font-family: "Open Sans";
-            padding-bottom: 20px;
+            margin: 12px 48px 20px 48px;
+            font-size: 16px;
+            line-height: 12px;
 
             a:hover span {
                 background-color: $label-color;
                 color: white;
             }
         }
+
+        .post-desp {
+            margin: 40px 48px 12px 48px;
+            font-size: 20px;
+            font-weight: 300;
+            line-height: 24px;
+            color: rgba($color: #000000, $alpha: 0.87);
+
+            ul {
+                padding-left: 24px;
+            }
+        }
     }
 }
 
 .label {
-    border: 0.5px solid $label-color;
+    border: 1px solid $label-color;
     border-radius: 2px;
+    padding: 4px 12px;
     color: $label-color;
-    padding: 0px 8px;
+    margin-right: 12px;
 }
 
 code {

@@ -2,10 +2,9 @@
 title = "Joybuy Whole Revamp"
 date = "2016-11-21"
 [extra]
-labels = ["E-commerce", "App", "Web"]
-image = "https://user-images.githubusercontent.com/52693877/197339736-907cc837-1397-4678-9a1f-744f0ecdd0d3.png"
+labels = ["App", "Web", "0 to 1"]
+image = "joybuy.png"
 summary = """Joybuy is an overseas e-commerce platform under JD.COM.
-
 This is a full revamp that covers the core shopping flow, I will elaborate two parts:
 
 - Homepage
