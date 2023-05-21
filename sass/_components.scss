@@ -149,14 +149,13 @@ article {
     justify-content: center;
     column-gap: 0px;
     margin: 48px 0;
-    filter: drop-shadow(10px 10px 20px rgba(234, 229, 215, 0.4));
-    
+
     img {
         height: 406px;
         width: 634px;
         object-fit: fill;
     }
-
+    
     .post {
         width: 643px;
         max-height: 406px;
@@ -198,12 +197,33 @@ article {
     }
 }
 
+article:hover {
+    filter: drop-shadow(10px 10px 20px rgba(234, 229, 215, 0.4));
+}
+
 .label {
-    border: 1px solid $label-color;
+    border: 1px none $label-color;
     border-radius: 2px;
     padding: 4px 12px;
     color: $label-color;
+    background-color: #EEF5FB;
+    font-weight: 500;
     margin-right: 12px;
+}
+
+.label-app {
+    background-color: #FFF3E0;
+    color: #ED5500;
+}
+
+.label-web {
+    background-color: #EEF8EF;
+    color: #478651;
+}
+
+.label-0-to-1 {
+    background-color: #F5F1EF;
+    color: #742554;
 }
 
 code {

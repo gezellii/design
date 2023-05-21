@@ -112,7 +112,7 @@
                         </div>
                         <div class="post-label">
                             {% for label in page.extra.labels %}
-                            <a><span class="label">{{ label }}</span></a>
+                            <a><span class="label  label-{{ label | slugify }}">{{ label }}</span></a>
                             {% endfor %}
                         </div>
                         <div class="post-desp">
