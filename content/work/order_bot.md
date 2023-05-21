@@ -17,77 +17,55 @@ In this project we reviewed the UX of a core task bot and raised **solution rate
 <span class="intro">
 <span class="bg">
 
-## Background
+## About Chatbot & Order Selection
 
 Shopee Chatbot serves 250k users per day in 8+ regions, answering all customer inquiries about orders, logistics, post-sale service, and so on. Chatbot saves an excellent amount of the cost for customer service.
 
 In this project, we aimed to bring down the **drop rate, transfer to live agent rate** and raise the **resolution rate** and **CSAT** of Order Selection flow.
 
 </span>
-<span class="role">
-
-## My Role
-
-Research:
-
-Journey mapping, Data analysis, User testing
-
-Design:
-
-UI/UX design, UX writing
-  
+<span class="gif">
+<img src="https://user-images.githubusercontent.com/52693877/239734548-dffdf14a-ac4d-4c71-81fd-e8af744cb58f.png">
 </span>
 </span>
+
+## A bit Background
+
+Over the past six months, the core metrics have been stagnant and remain at the industry average level. Chatbot team tried adjust the model, edited articles in Knowledge Base, but all seem not to be effective. 
 
 ## Choose a Research Method
 
-Chatbot is characterised by a large amount of data and small amount of information per piece of data. It’s a product team that pays more attention to macro data fluctuation rather than individual user feedback, and the development team has accumulated a large amount of available data.
+Chatbot is characterised by large amount of data and small amount of information per piece of data. The product team has accumulated a lot of available data for research.
+
+In contrast, the product team pays less attention to individual user experience or feedback than macro data fluctuation.
 
 Given the above information, we decided to adopt a research method `based on data analysis` and `supplemented by usability test`.
 
+<img src="https://user-images.githubusercontent.com/52693877/239734944-4c5707db-aa75-4c54-ad46-092d424a604e.svg" >
+
+
 ## Step 1 Mapping the User Journey and Find Out The Data We Need
 
-![image]()
+Chatbot is a product with complex and interlaced flow, I mapped out the user journey to visualise the user flow and help us find out what data we need.
 
-After mapping out the user journey I found that I would like to have the traffic, drop rate, resolution rate, and CSAT of each node based on different flows.
+<img src="https://user-images.githubusercontent.com/52693877/239735221-206fa1dd-e344-4210-ac4d-669f37e82930.png" >
 
-## Step 2 Hypothesis from Data and Test Them
 
-### Anomalies
+After mapping out the user journey, I asked BI team for the `traffic`,`drop rate`,`resolution rate`,and `CSAT`of each node based on different flow.
 
-Checking the data we found several anomalies :
+## Step 2 Form Hypothesis from Data and Journey Mapping
 
-1. Order Selection drop rate is considered to be high in general;
-2. Drop rate at the order selection node is higher for Return/Refund bots (11%) than Order bots (7%) for Click methods
-3. CSAT at Return/Refund bot is obviously lower than Order bot;
+<div class="data">
+  <div>High drop rate at Order Selection node.</div>
+  <div>Drop rate at order selection node is higher for RR bots (11%) than Order bots (7%) for Click methods.</div>
+  <div>Lower Customer satisfaction (CSAT) at Return/Refund bot than Order bot.</div>  
+</div>
 
-### Hypothesis
 
-With the issues from the data I conducted a UX audit for our current flow, and formed some hypotheses to explain the anomalies:
-
-1. Order Selection drop rate is high because：
-  * The `order card information` confused users and result in hesitation;
-  * Users don’t know `how to find other orders`;
-  * Users can’t find the wanted order because `we don’t have the order` at all(hard to believe but possible)
-2. Drop rate at order selection node is higher for RR bots (11%) than Order bots (7%) for Click methods because：
-  * Users might want to inquire something `not about a specific order`;
-  * Our copywriting makes the user believe that `clicking on an order card equals raising a return/refund` for that order.
-3. Return/Refund bot CSAT is lower than Order bot because：
-  * We send nonsense messages;
-  * We force them to choose an order when they don't want to do so;
-  * Of the nature of the business;
-
-### Verification
+## Step 3 Verification
 
 Pair each hypothesis with one or more ways to verify:
 
-![image]()
-
-## Step 3 Verify the Hypothesis and Propose Design Solutions
-
-Get validation result:
-
-![image]()
 
 ## Step 4 Craft Design Solutions
 
