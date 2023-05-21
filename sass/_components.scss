@@ -33,10 +33,14 @@ main {
 }
 
 .intro {
-    min-width: 420px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+}
+
+.introduction {
+    margin: 0 128px;
+    min-width: 420px;
 
     p {
         margin: 48px 0;
