@@ -89,7 +89,7 @@ We also aligned our responsibilities and cooperation method. My partner is a for
 
 To limit the length of this article, I'll just narrow down the narrative scope to Creation & Management flow, whose main users are FPM & BI & Data PM.
 
-In this step, I intend to `clarify user intentions and task details` with target user groups. Also to find answers to my questions generated in Step 1:
+In this step, I intend to **clarify user intentions and task details** with target user groups. Also to find answers to my questions generated in Step 1:
 
 I invited data PM and FE dev to join some of my observation sessions so I can cover more potential issues. We got a long [observation record](https://docs.google.com/spreadsheets/d/1szDVD3wMfF-gcHMUBiAo4EW2-J4p72SOqR61KNT2Mmg/edit?usp=sharing) and some key insights here:
 

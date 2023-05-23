@@ -232,8 +232,8 @@ article:hover {
     color: #742554;
 }
 
-code {
-    font-family: "Dosis";
+strong {
+    font-family: "Inter";
     background-color: $text-bg-color;
 }
 
@@ -244,6 +244,15 @@ code {
     font-weight: 300;
     line-height: 28px;
     color: rgba($color: #000000, $alpha: 0.87);
+
+    a {
+        text-decoration: underline
+    }
+    ul {
+        li {
+            margin-left: 40px;
+        }
+    }
 }
 
 p.time {
@@ -271,7 +280,7 @@ h2 {
 
 h3 {
     font-family: Inter;
-    font-size: 28px;
+    font-size: 24px;
     font-weight: 600;
     line-height: 34px;
     letter-spacing: 0em;
@@ -288,7 +297,7 @@ h3 {
     width: 35%;
 }
 
-.data{
+.data {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -299,7 +308,7 @@ h3 {
     height: 444px;
 }
 
-.reason{
+.reason {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -308,4 +317,15 @@ h3 {
 
     width: 507px;
     height: 480px;
+}
+
+.pic {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 120px;
+
+    // width: 1078px;
 }

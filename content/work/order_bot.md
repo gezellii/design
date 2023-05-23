@@ -39,21 +39,21 @@ Chatbot is characterised by large amount of data and small amount of information
 
 In contrast, the product team pays less attention to individual user experience or feedback than macro data fluctuation.
 
-Given the above information, we decided to adopt a research method `based on data analysis` and `supplemented by usability test`.
+Given the above information, we decided to adopt a research method **based on data analysis** and **supplemented by usability test**.
 
 <img src="https://user-images.githubusercontent.com/52693877/239734944-4c5707db-aa75-4c54-ad46-092d424a604e.svg" >
 
 
-## Step 1 Mapping the User Journey and Find Out The Data We Need
+### Step 1 Mapping the User Journey and Find Out The Data We Need
 
 Chatbot is a product with complex and interlaced flow, I mapped out the user journey to visualise the user flow and help us find out what data we need.
 
 <img src="https://user-images.githubusercontent.com/52693877/239735221-206fa1dd-e344-4210-ac4d-669f37e82930.png" >
 
 
-After mapping out the user journey, I asked BI team for the `traffic`,`drop rate`,`resolution rate`,and `CSAT`of each node based on different flow.
+After mapping out the user journey, I asked BI team for the **traffic**,**drop rate**,**resolution rate**,and **CSAT**of each node based on different flow.
 
-## Step 2 Form Hypothesis from Data and Journey Mapping
+### Step 2 Form Hypothesis from Data and Journey Mapping
 
 <div class="data">
   <div>High drop rate at Order Selection node.</div>
@@ -62,32 +62,65 @@ After mapping out the user journey, I asked BI team for the `traffic`,`drop rate
 </div>
 
 
-## Step 3 Verification
+### Step 3 Verification
 
 Pair each hypothesis with one or more ways to verify:
 
+<img src="https://user-images.githubusercontent.com/52693877/240283369-fde503ac-ddf3-4574-bdac-b74f82359a2e.png" >
 
-## Step 4 Craft Design Solutions
+At this step, we conducted several user testing, checked agent-customer chat history exported from live agent admin, communicated with BI team for more detailed data, and conducted fast A/B testing on UX writing. 
+Full verification data <link>[here](https://docs.google.com/spreadsheets/d/1U6D6JAdLe83aEqkONwu0Fh34PJGa0EcLX161wne69-c/edit#gid=0)</link>.
 
-![image]()
-![image]()
-![image]()
-![image]()
-![image]()
+### Step 4 Actions
 
-## Step 5 A/B Test Design Options to Get the Final Design
+Along with the movement of our research, solutions came quite naturally for each pain point. 
 
-With all A/B test results, the final design we get has the highest performance of + 3.71% in resolution rate, - 6.82% in drop rate, -2.73% in transfer to live agent rate. [Link](https://docs.google.com/spreadsheets/d/1d4jLm2_o1jYWMGqTmbin11taxrZAmwDhVp9AEtZ5iZA/edit?usp=sharing)
+<img src="https://user-images.githubusercontent.com/52693877/240284485-44652a07-2131-4444-b682-c05a4cc6050a.png" >
 
-Based on the traffic of the order bot in the last three months, the labor cost saved by bringing down the transfer to live agent rate is around 1 million SGD/ year( based on ID salary). We didn’t count the user retention or order contribution related to the increase in resolution rate and CSAT.
+## Craft Design Solutions
+
+### 1. Change information to help users recognise their order
+
+<div class="pic">
+<div><img src="https://user-images.githubusercontent.com/52693877/240286571-9a204b76-fdff-48f9-ba5d-c095be37c6d6.png" ></div>
+<div><img src="https://user-images.githubusercontent.com/52693877/240286588-76efbace-fe2b-41ba-8715-7159e350939a.png" ></div>
+</div>
+
+### 2. Explore UI options to enhance affordance
+
+<div class="pic">
+<div><img src="https://user-images.githubusercontent.com/52693877/240286602-cbfcb29c-990e-4a4d-9d9c-a04cbed33d75.png" ></div>
+<div><img src="https://user-images.githubusercontent.com/52693877/240286610-25c23ceb-ea3d-448c-a029-a055cdc4b56c.png" ></div>
+</div>
+
+### 3. Alternative flow to  allow users back to any possible enquiries  
+
+<div class="pic">
+<div><img src="https://user-images.githubusercontent.com/52693877/240286627-5d36d83b-ed35-474f-9d7f-425d1edc1ca5.png" ></div>
+<div><img src="https://user-images.githubusercontent.com/52693877/240286631-66c01b3f-2cd2-4761-935b-2628f8321d25.png" ></div>
+</div>
+
+### 4. Advice on UX writing
+
+<div class="pic">
+<div><img src="https://user-images.githubusercontent.com/52693877/240286636-d3701d9c-af46-47de-9b13-70d0c857f7f2.png" ></div>
+<div><img src="https://user-images.githubusercontent.com/52693877/240286642-b1e23dd7-80b8-49cb-8874-4d5ac2194011.png" ></div>
+</div>
+
+With all A/B test results, the final design we get has the highest performance of **+3.71% in resolution rate**, **- 6.82% in drop rate**, **-2.73% in transfer to live agent rate**. [Link](https://docs.google.com/spreadsheets/d/1d4jLm2_o1jYWMGqTmbin11taxrZAmwDhVp9AEtZ5iZA/edit?usp=sharing)
+
+Based on the traffic of the order bot in the last three months, the labor cost saved by bringing down the transfer to live agent rate is around 1 million USD/ year( based on ID salary). 
 
 We also did further analysis to understand why the final design outperforms other options. [Link](https://docs.google.com/spreadsheets/d/1tf_NF1O4DfNZGtwqaw7cVimGoKrvABNALraCJcx3naM/edit?usp=sharing)
 
+
+
 ## What's More?
 
-During this project, we also found some other UX issues that were not directly related to this feature, which derived into some other projects later, including:
+If you are interested in Chatbot , we can talk about some other related products such as:
 
-* Answer article browsing experience enhancement;
-* Chat Flow Editor portal configuration structure change;
+* [Task Flow Editor](https://www.figma.com/file/mUepWRHQ9tlug2wKUM5zfu/Chatflow-Editor-(Latest)?type=design&node-id=12%3A24&t=kjMq6i1wk9hx8bsT-1):  An Integrated operation management platform for customer servers to create & manage all chatbot flows;
+* [Annotation Portal](https://www.figma.com/file/kCkkutGnQ5IeAzUKoz6lDS/Data-Annotation?type=design&node-id=5873%3A76560&t=3FYl9aMma3CruBNC-1): A place for customer servers QA team to review and correct chatbot answer;
+* [Data Insights](https://www.figma.com/file/SE0o4qIS19JAcIRChtILEm/Insights-Data-Portal---Past?type=design&node-id=1822%3A11838&t=w5trwwxOoqSMIFiH-1): A data dashboard for Chatbot product team to check chatbot performance;
 
-I can't list them one by one because of the limitations of space. If you are interested in any part of it, I will be happy to share it with you when we meet.
+
