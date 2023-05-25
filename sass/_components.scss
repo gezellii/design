@@ -242,8 +242,8 @@ strong {
     margin: 0 auto;
     font-size: 20px;
     font-weight: 300;
-    line-height: 28px;
-    color: rgba($color: #000000, $alpha: 0.87);
+    line-height: 30px;
+    color: rgba($color: #000000, $alpha: 0.75);
 
     a {
         text-decoration: underline
@@ -252,6 +252,11 @@ strong {
         li {
             margin-left: 40px;
         }
+    }
+
+    img {
+        margin: 0 auto;
+        display: block;
     }
 }
 
@@ -264,6 +269,7 @@ p.time {
     line-height: 24px;
     letter-spacing: 0.02em;
     text-align: center;
+    color: rgba(0, 0, 0, 0.54);
 }
 
 h2 {
@@ -287,6 +293,17 @@ h3 {
     text-align: left;
     color: rgba(36, 57, 130, 1);
     margin-top: 80px;
+}
+
+h4 {
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 34px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: rgb(80, 80, 80);
+    margin-top: 24px;
 }
 
 .bg {
@@ -328,4 +345,44 @@ h3 {
     gap: 120px;
 
     // width: 1078px;
+}
+
+
+.mapping {
+    padding: 20px 0;
+    background-color: #fafafa;
+    display: flex;
+    justify-content: space-between;
+    font-weight: 200;
+    width: 990px;
+
+    .orange-title {
+        color: #E75122;
+        font-weight: 500;
+        text-align: center;
+    }
+
+    .green-title {
+        color: #226E57;
+        font-weight: 500;
+        text-align: center;
+    }
+
+    p {
+        margin: 8px;
+    }
+}
+
+.tracking {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 20px;
+
+}
+
+.disable {
+    color: #a8a8a8;
 }
