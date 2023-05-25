@@ -55,10 +55,43 @@ After mapping out the user journey, I asked BI team for the **traffic**,**drop r
 
 ### Step 2 Form Hypothesis from Data and Journey Mapping
 
-<div class="data">
-  <div>High drop rate at Order Selection node.</div>
-  <div>Drop rate at order selection node is higher for RR bots (11%) than Order bots (7%) for Click methods.</div>
-  <div>Lower Customer satisfaction (CSAT) at Return/Refund bot than Order bot.</div>  
+<div class="arrow">
+  <div class="key">
+    <div class="inline-title">Data Anomalies</div>
+    <br/><br/><br/><br/>
+    <div>High drop rate at Order Selection node.</div>
+    <br/><br/><br/><br/><br/><br/><br/>
+    <div>Drop rate at order selection node is higher for RR bots (11%) than Order bots (7%) for Click methods.</div>
+    <br/><br/><br/><br/>
+    <div>Lower Customer satisfaction (CSAT) at Return/Refund bot than Order bot.</div>  
+  </div>
+  <div class="symbol">
+    <br/><br/><br/><br/><br/><br/><br/><br/><div>---></div><br/><br/><br/><br/>
+    <br/><br/><br/><div>---></div><br/><br/><br/><br/><br/><br/>
+    <div>---></div>
+  </div>
+  <div class="value">
+    <div class="inline-title">Possible Reasons</div>
+    <div class="group-p">
+
+1. the order card information confused user and result in hesitation;
+2. the user don’t know how to find other order;
+3. the user can’t find the wanted order because we don’t have it at all(hard to believe but possible)
+
+    </div>
+    <div class="group-p"><ol start="4">
+
+4. the user might not want to inquire about a specific order;
+5. our copywriting make the user believe that clicking on an order card means raise RR for that order.
+
+    </ol></div>
+    <div class="group-p"><ol start="6">
+
+6. we send nonsense messages;
+7. the nature of that topic;
+
+    </ol></div>
+  </div>
 </div>
 
 
