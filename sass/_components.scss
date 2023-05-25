@@ -417,3 +417,22 @@ h4 {
 .disable {
     color: #a8a8a8;
 }
+
+.footer {
+    width: 62%;
+    margin: 40px auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    .rotate {
+        display: inline-block;
+        transform: rotate(180deg);
+    }
+
+    a {
+        text-decoration: underline;
+        font-weight: 300;
+        font-size: 28px;
+    }
+}

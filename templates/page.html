@@ -4,4 +4,26 @@
 <div class="content">
     {{ page.content | safe }}
 </div>
+<div class="footer">
+    <div class="prev">
+        {% if page.lower %}
+            <div class="rotate">&#10159;</div>
+            <a href="{{ page.lower.permalink }}">
+                {{ page.lower.title }}
+            </a>
+        {% else %}
+            <a href="/">Back to Home</a>
+        {% endif %}
+    </div>
+    <div class="next">
+        {% if page.higher %}
+            <a href="{{ page.higher.permalink }}">
+                {{ page.higher.title }} 
+            </a>
+            &#10159;
+        {% else %}
+            <a href="/">Back to Home</a>
+        {% endif %}
+    </div>
+</div>
 {% endblock content %}
