@@ -100,26 +100,26 @@
             <section>
                 {% set section = get_section(path="work/_index.md") %}
                 {% for page in section.pages %}
-                <article>
-                    <div class="post-img">
-                        <img src="{{ page.extra.image }}" alt="" loading="lazy">
-                    </div>
-                    <div class="post">
-                        <div class="post-title">
-                            <a href="{{ page.permalink }}">
+                <a href="{{ page.permalink }}">
+                    <article>
+                        <div class="post-img">
+                            <img src="{{ page.extra.image }}" alt="" loading="lazy">
+                        </div>
+                        <div class="post">
+                            <div class="post-title">
                                 {{ page.title }}
-                            </a>
+                            </div>
+                            <div class="post-label">
+                                {% for label in page.extra.labels %}
+                                <span class="label  label-{{ label | slugify }}">{{ label }}</span>
+                                {% endfor %}
+                            </div>
+                            <div class="post-desp">
+                                {{ page.extra.summary | markdown | safe }}
+                            </div>
                         </div>
-                        <div class="post-label">
-                            {% for label in page.extra.labels %}
-                            <a><span class="label  label-{{ label | slugify }}">{{ label }}</span></a>
-                            {% endfor %}
-                        </div>
-                        <div class="post-desp">
-                            {{ page.extra.summary | markdown | safe }}
-                        </div>
-                    </div>
-                </article>
+                    </article>
+                </a>
                 {% endfor %}
             </section>
             {% endblock content %}
