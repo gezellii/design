@@ -1,4 +1,4 @@
-# design
+# Mapotofu
 
 * [design.mapotofu.org](https://design.mapotofu.org/)
 
