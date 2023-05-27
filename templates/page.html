@@ -6,13 +6,14 @@
 </div>
 <div class="footer">
     <div class="prev">
+        <span class="material-symbols-outlined">
+            arrow_back_ios
+        </span>
         {% if page.lower %}
-            <div class="rotate">&#10159;</div>
             <a href="{{ page.lower.permalink }}">
                 {{ page.lower.title }}
             </a>
         {% else %}
-            <div class="rotate">&#10159;</div>
             <a href="/">Back to Home</a>
         {% endif %}
     </div>
@@ -21,10 +22,12 @@
             <a href="{{ page.higher.permalink }}">
                 {{ page.higher.title }} 
             </a>
-            &#10159;
         {% else %}
-            <a href="/">Back to Home</a>&#10159;
+            <a href="/">Back to Home</a>
         {% endif %}
+        <span class="material-symbols-outlined">
+            arrow_forward_ios
+        </span>
     </div>
 </div>
 {% endblock content %}

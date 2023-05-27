@@ -66,9 +66,9 @@ After mapping out the user journey, I asked BI team for the **traffic**,**drop r
     <div>Lower Customer satisfaction (CSAT) at Return/Refund bot than Order bot.</div>  
   </div>
   <div class="symbol">
-    <br/><br/><br/><br/><br/><br/><br/><br/><div>---></div><br/><br/><br/><br/>
-    <br/><br/><br/><div>---></div><br/><br/><br/><br/><br/><br/>
-    <div>---></div>
+    <br/><br/><br/><br/><br/><br/><br/><br/><div><span class="material-symbols-outlined arrow-color">arrow_forward</span></div><br/><br/><br/><br/>
+    <br/><br/><br/><div><span class="material-symbols-outlined arrow-color">arrow_forward</span></div><br/><br/><br/><br/><br/><br/>
+    <div><span class="material-symbols-outlined arrow-color">arrow_forward</span></div>
   </div>
   <div class="value">
     <div class="inline-title">Possible Reasons</div>

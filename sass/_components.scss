@@ -249,6 +249,12 @@ strong {
         }
     }
 
+    tr {
+        img {
+            margin: 0;
+        }
+    }
+
     img {
         margin: 0 auto;
         display: block;
@@ -420,19 +426,23 @@ h4 {
 
 .footer {
     width: 62%;
-    margin: 40px auto;
+    margin: 120px auto;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-
-    .rotate {
-        display: inline-block;
-        transform: rotate(180deg);
+    font-size: 28px;
+    
+    .material-symbols-outlined {
+        font-size: 28px;
+        vertical-align: text-bottom;
     }
 
     a {
         text-decoration: underline;
         font-weight: 300;
-        font-size: 28px;
     }
+}
+
+.arrow-color {
+    color: rgb(228, 120, 66);
 }

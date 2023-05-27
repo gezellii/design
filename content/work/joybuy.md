@@ -43,11 +43,8 @@ Prototyping, UX design, Branding
 
 As it was an overall improvement to the whole flow, in order to determine and prioritise what we were going to solve, we did a site audit on a typical user journey first:
 
-![image]()
+<img src="https://user-images.githubusercontent.com/52693877/241350271-9b3119bb-12e8-4f88-a990-61a445c40108.png">
 
-Site Audit
-
-As it was an overall improvement to the whole flow, in order to determine and prioritise what we were going to solve, we did a site audit on a typical user journey first:
 
 From this sitemap we already found some problems such as:
 
@@ -59,7 +56,7 @@ From this sitemap we already found some problems such as:
 
 To verify our hypothesis, we listed down associated user behaviours, converted them into measurable metrics, then turned to the BI team and customer service team for all we need to prove our thoughts:
 
-![image]()
+<img src="https://user-images.githubusercontent.com/52693877/241350269-f816cb34-b640-4bc9-beb1-9c7c1c6bf39b.png">
 
 The data turned out to support most of our hypothesis:
 
@@ -79,7 +76,7 @@ At the same time, we also observed some UI issues during the audit, which we dec
 
 | EN                                                                                                  | RU                                                                                               | ES                                                                                  |
 | :-------------------------------------------------------------------------------------------------- | :----------------------------------------------------------------------------------------------- | :---------------------------------------------------------------------------------- |
-| ![image]()                                                                                          | ![image]()                                                                                       | ![image]()                                                                          |
+| <img src="https://user-images.githubusercontent.com/52693877/241350268-d5053cde-95c5-42bf-9918-ad438f81dcdc.png" style=" width:280px">                                                                                         | <img src="https://user-images.githubusercontent.com/52693877/241350267-8f65e412-d7c6-4938-9011-dfad2ed408f2.png" style="width:280px">                                                                                        | <img src="https://user-images.githubusercontent.com/52693877/241350265-384e5d40-60b3-4c8d-9118-e97a65ae2865.png" style="width:280px">                                                                         |
 | **ISABELLA, 27**                                                                                    | **IVANOVICH, 35**                                                                                | **CAMILA, 23**                                                                      |
 | Location: London, UK                                                                                | Location: Moscow, Russia                                                                         | Location: Madrid, Spain                                                             |
 | Enjoy adding pops of colours to her home. Appreciates quality products, but at an affordable price. | Keen to buy some cheap accessories online for his motorcycle. Interested in electronic products. | A young worker with a passion for life. Like colourful trinkets and trendy clothes. |
@@ -119,19 +116,20 @@ We also decide to keep those principles in mind when designing as well as review
 
 ### Prototype
 
-![image]()
+<img src="https://user-images.githubusercontent.com/52693877/241350262-e68fce25-a271-4b68-a9b8-88da36572349.png">
 
 ### Final Design
 
 With our target audiences' persona we settled down the visual style of our websites:
 
-![image]()
-![image]()
-![image]()
-![image]()
-![image]()
-![image]()
-
+<img src="https://user-images.githubusercontent.com/52693877/241350242-019e634c-4ced-4923-9610-5b242aef3ba9.png">
+<img src="https://user-images.githubusercontent.com/52693877/241350240-4241fabd-75b8-441b-9b85-b21e990cf691.png">
+<img src="https://user-images.githubusercontent.com/52693877/241350240-4241fabd-75b8-441b-9b85-b21e990cf691.png">
+<img src="https://user-images.githubusercontent.com/52693877/241350233-b55728d7-e0e6-44be-bf75-a48eeabca90c.png">
+<img src="https://user-images.githubusercontent.com/52693877/241350239-71c29d36-5b89-4cac-9953-d4c76c24b03f.png">
+<img src="https://user-images.githubusercontent.com/52693877/241350237-63d237bf-8913-43e9-b728-2df57c6487a0.png">
+<img src="https://user-images.githubusercontent.com/52693877/241350228-a121a178-722a-48c8-a271-9c4cb9963ea8.png">
+<br>
 ---
 
 ## Checkout & Payment
@@ -155,7 +153,7 @@ With our target audiences' persona we settled down the visual style of our websi
 * Offer guest checkout ( Declined by tech limitation); Allow social sign-in;
 * Show user guarantee policy;  Connect users to customer support;
 
-![image]()
+<img src="https://user-images.githubusercontent.com/52693877/241350195-7e9f6d84-c36c-4eb9-bbe5-c507ac087ba8.png">
 
 From a quantitative study of reasons for checkout abandonments done by @Baymard, we got double-confirm of our analysis : 
 
@@ -172,17 +170,17 @@ We decide to keep those principles in mind when designing the UX:
 
 ### Prototype
 
-![image]()
+<img src="https://user-images.githubusercontent.com/52693877/241350184-bfb22a16-e992-4a4e-9585-9c2af91a6a9e.png">
 
 ### Final Design
 
 Checkout main page
 
-![image]()
+<img src="https://user-images.githubusercontent.com/52693877/241350190-0cf90046-90a6-400d-b5e6-ae5fa7d5c77b.png">
 
 Checkout with third party payment
 
-![image]()
+<img src="https://user-images.githubusercontent.com/52693877/241350193-d0c43586-dd08-4692-8633-8f8897ee7f02.png">
 
 ---
 
@@ -199,4 +197,5 @@ In this year-long project, we had almost taken care of every corner of JOYBUY, i
 * Help center;
 * ...
 
-I can't list them one by one of the limitations of space. If you are interested in any part of it, I will be happy to share with you when we meet.
+It was the very first comperhensive project that built my foundamental understanding of an ecommerce product.
+So even so many years have passed and it now seems that it has a lot to fall short of - especially idealistic - I still have this project here as a memorial to my first job, and it was a happy experience.
