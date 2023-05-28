@@ -1,12 +1,12 @@
 +++
 title = "Chatbot UX Enhancement"
-date = "2022-09-21"
+date = "2021-09-21"
 [extra]
 labels = ["App", "Data Driven"]
 image = "chatbot.png"
 summary = """Shopee Chatbot is an assistant bot in the Shopee e-commerce app, to answer users’ questions before they decide to access the live agent service.
 
-In this project we reviewed the UX of a core task bot and raised **solution rate by 3.71%**.
+In this project we reviewed the UX of a core task bot and raised solution rate by 3.71%.
 """
 +++
 
