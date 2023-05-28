@@ -123,13 +123,22 @@ We also decide to keep those principles in mind when designing as well as review
 With our target audiences' persona we settled down the visual style of our websites:
 
 <img src="https://user-images.githubusercontent.com/52693877/241350242-019e634c-4ced-4923-9610-5b242aef3ba9.png">
-<img src="https://user-images.githubusercontent.com/52693877/241350240-4241fabd-75b8-441b-9b85-b21e990cf691.png">
-<img src="https://user-images.githubusercontent.com/52693877/241350240-4241fabd-75b8-441b-9b85-b21e990cf691.png">
-<img src="https://user-images.githubusercontent.com/52693877/241350233-b55728d7-e0e6-44be-bf75-a48eeabca90c.png">
-<img src="https://user-images.githubusercontent.com/52693877/241350239-71c29d36-5b89-4cac-9953-d4c76c24b03f.png">
-<img src="https://user-images.githubusercontent.com/52693877/241350237-63d237bf-8913-43e9-b728-2df57c6487a0.png">
-<img src="https://user-images.githubusercontent.com/52693877/241350228-a121a178-722a-48c8-a271-9c4cb9963ea8.png">
+
+<div class="image-joy">
+    <div>
+        <img src="https://user-images.githubusercontent.com/52693877/241350240-4241fabd-75b8-441b-9b85-b21e990cf691.png" />
+    </div>
+    <div>
+        <img src="https://user-images.githubusercontent.com/52693877/241350237-63d237bf-8913-43e9-b728-2df57c6487a0.png">
+        <img src="https://user-images.githubusercontent.com/52693877/241350239-71c29d36-5b89-4cac-9953-d4c76c24b03f.png">
+    </div>
+    <div>
+        <img src="https://user-images.githubusercontent.com/52693877/241350233-b55728d7-e0e6-44be-bf75-a48eeabca90c.png">
+        <img src="https://user-images.githubusercontent.com/52693877/241350228-a121a178-722a-48c8-a271-9c4cb9963ea8.png">
+    </div>
+</div>
 <br>
+
 ---
 
 ## Checkout & Payment

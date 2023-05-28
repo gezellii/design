@@ -446,3 +446,15 @@ h4 {
 .arrow-color {
     color: rgb(228, 120, 66);
 }
+
+.image-joy {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    column-gap: 40px;
+
+    img {
+        border-radius: 20px;
+        margin: 20px;
+    }
+}
