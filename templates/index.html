@@ -12,6 +12,25 @@
         href="{{ get_url(path="atom.xml", trailing_slash=false) }}">
     {% endif %}
     <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🎨</text></svg>">
+    {% if page.title %}
+    <meta property="og:title" content="{{ page.title }}" />
+    {% else %}
+    <meta property="og:title" content="{{ config.title }}" />
+    {% endif %}
+    <meta property="og:type" content="website" />
+    {% if page.permalink %}
+    <meta property="og:url" content="{{ page.permalink | safe }}" />
+    {% else %}
+    <meta property="og:url" content="{{ config.base_url | safe }}" />
+    {% endif %}
+    {% if page.extra.summary %}
+    <meta property="og:description" content="{{ page.extra.summary }}" />
+    {% else %}
+    <meta property="og:description" content="{{ config.description }}" />
+    {% endif %}
+    {% if page.extra.image %}
+    <meta property="og:image" content="{{ page.extra.image | safe }}" />
+    {% endif %}
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inter:100,200,300,400,500,600,700">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
 </head>
