@@ -1,0 +1,18 @@
+{% extends "index.html" %}
+
+{% block content %}
+<div class="image-page">
+    {{ page.content | safe }}
+
+    <div class="image-flow">
+        {% for image in page.extra.images %}
+        <div class="image-desc">
+            <img src="{{ image }}"/>
+            <div class="overlay-desc">
+                {{ page.extra.descriptions[loop.index0] }}
+            </div>
+        </div>
+        {% endfor %}
+    </div>
+</div>
+{% endblock content %}
