@@ -90,11 +90,11 @@ With thoes business & experience metrics, we not only got a clear understanding 
 
 With all the research result, we started from sorting out elements by groups.
 
-This step required a lot of communication with higher manager as well as different stakeholders(Me page PMs, all feature PMs, country PMs).The challenge is, we not only need to convince the boss of the rationality of our product positioning and structure, but also convince every PIC in charge of the relevant content on this page to adjust or even give up their position on Me page. 
+This step required a lot of communication with higher manager as well as different stakeholders(Me page PMs, all feature PMs, country PMs).The challenge is, we not only need to convince the boss of the rationality of our product positioning and structure, but also convince every PIC in charge of the relevant content on Me page to adjust or even give up their position. 
 
 <img src="https://user-images.githubusercontent.com/52693877/242237121-e9c137d5-dbf0-42ee-a7a4-a9f3225d2a2f.png">
 
-Faced with the fact that features of each country is different, and the priority of each module is also different. We need to **meet the needs of each market** on the basis of **overall optimization**, and let them finally reach an agreement. With low-fidi prototype, we are able to communicate with each stakeholders at the early stage of this project.
+Faced with the fact that features of each country are different, and the priority of each module are also different. We need to **meet the needs of each market** on the basis of **overall optimization**, and let them finally reach an agreement. With low-fidi prototype, we are able to communicate with each stakeholders at the early stage of this project.
 
 <img src="https://user-images.githubusercontent.com/52693877/242248001-d8ce61cd-4063-4fac-8834-21e746dcacba.png">
 
@@ -117,5 +117,7 @@ Part of our design options:
 <img src="https://user-images.githubusercontent.com/52693877/242236265-11e59371-ed19-4fd3-be3c-10c7ee9963a7.png">
 
 ## 5. Final Design:
-<img src="https://user-images.githubusercontent.com/52693877/242293881-85628d5b-11c3-4cbf-8ad4-2a59cf9b672e.png">
+<img src="https://user-images.githubusercontent.com/52693877/242301870-017a6e15-4805-4d2f-a24f-0d43d85c5235.png">
+<img src="https://user-images.githubusercontent.com/52693877/242301919-b9c08695-e1f1-4756-8609-5c172476bb44.png">
+
 
