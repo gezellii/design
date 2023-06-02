@@ -3,7 +3,6 @@ title = "Playground"
 template = "play.html"
 [extra]
 images = [
-    "https://user-images.githubusercontent.com/52693877/241556612-f35195dc-069f-4413-b606-1db0bd78ea5d.png",
     "https://user-images.githubusercontent.com/52693877/241556972-fc1a34ba-0015-42c0-9917-034598eeb71c.jpg",
     "https://user-images.githubusercontent.com/52693877/241556976-ca533702-f9b3-43fc-9f01-0afc636605aa.jpg",
     "https://user-images.githubusercontent.com/52693877/241556982-44f27224-d9c1-46ee-a040-49cc88984d54.jpeg",
@@ -71,7 +70,7 @@ descriptions = [
     "30",
     "31",
     "32",
-    "33",
+    
 
 ]
 
