@@ -56,12 +56,36 @@ main {
     margin-top: -75px;
 }
 
+.top-flower {
+    opacity: 0.8;
+    width: 75%;
+    position: relative;
+    top: -35px;
+}
+
 .title {
     font-size: 96px;
     font-weight: 700;
     color: rgba($color: #3D235E, $alpha: 0.1);
-    margin-left: -72px;
     margin-top: 72px;
+}
+
+.left-draw {
+    opacity: 0.9;
+    position: absolute;
+    left: 0;
+}
+
+.right-draw {
+    opacity: 0.8;
+    position: absolute;
+    right: 0;
+    transform: rotate(-22.2deg);
+
+    img {
+        position: relative;
+        top: -8rem;
+    }
 }
 
 .journey {
