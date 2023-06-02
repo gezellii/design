@@ -7,7 +7,7 @@
     <div class="image-flow">
         {% for image in page.extra.images %}
         <div class="image-desc">
-            <img src="{{ image }}"/>
+            <img src="{{ image }}" loading="lazy"/>
             <div class="overlay-desc">
                 <p>{{ page.extra.descriptions[loop.index0] }}</p>
             </div>
