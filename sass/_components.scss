@@ -471,13 +471,14 @@ h4 {
     column-gap: 10px;
 
     .image-desc {
-        flex: 1 0 calc(33% - 10px);
-        margin: 10px 0 0 0;
+        flex: 1 0 calc(33% - 20px);
+        margin: 20px 0 0 0;
         position: relative;
 
         img {
             position: relative;
             width: 100%;
+            border-radius: 8px;
             display: block;
         }
 
