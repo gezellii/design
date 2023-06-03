@@ -506,15 +506,26 @@ h4 {
         .overlay-desc {
             position: absolute;
             display: flex;
-            justify-content: center;
             align-items: end;
+            flex-wrap: wrap;
             top: 0;
             height: 100%;
             width: 100%;
             color: rgba($color: #fff, $alpha: 0);
 
-            p {
-                padding: 20px;
+            div {
+                width: 100%;
+                margin: 1rem;
+            }
+
+            .image-title {
+                font-weight: 500;
+                font-size: 16px;
+            }
+
+            .image-description {
+                font-weight: 400;
+                font-size: 12px;
             }
         }
 

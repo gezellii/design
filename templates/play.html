@@ -9,7 +9,18 @@
         <div class="image-desc">
             <img src="{{ image }}" loading="lazy"/>
             <div class="overlay-desc">
-                <p>{{ page.extra.descriptions[loop.index0] }}</p>
+                <div>
+                    {% if loop.index0 < page.extra.titles | length %}
+                        <div class="image-title">
+                            {{ page.extra.titles[loop.index0] | title }}
+                        </div>
+                    {% endif %}
+                    {% if loop.index0 < page.extra.descriptions | length %}
+                        <div class="image-description">
+                            {{ page.extra.descriptions[loop.index0] }}
+                        </div>
+                    {% endif %}
+                </div>
             </div>
         </div>
         {% endfor %}
