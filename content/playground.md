@@ -5,7 +5,7 @@ template = "play.html"
 images = [
     "https://user-images.githubusercontent.com/52693877/243027569-17af917f-6b1a-424d-9c58-ae236e3cd07f.jpg",
     "https://user-images.githubusercontent.com/52693877/241556701-56a723bc-f46c-468f-b89e-d240320e0636.jpg",
-    "https://user-images.githubusercontent.com/52693877/243027722-2a138a32-173a-4a41-bffc-a84a803d8a84.png",
+    "https://user-images.githubusercontent.com/52693877/243036698-1e0dd2fc-676b-4e11-93f1-08836d11be82.png",
     "https://user-images.githubusercontent.com/52693877/243027718-bc080281-a4f5-41a0-912d-1d4cac87790b.png",
     "https://user-images.githubusercontent.com/52693877/241557803-b1b97b06-bf69-4afb-8d7b-2210616ca853.jpg",
 
@@ -29,6 +29,7 @@ images = [
     
     "https://user-images.githubusercontent.com/52693877/241556522-266c1475-2d73-41c9-80fd-28f84eb47a99.png",
     "https://user-images.githubusercontent.com/52693877/241557596-08754a8c-5f37-48a8-84cf-77fcfe564e8d.jpg",
+
     "https://user-images.githubusercontent.com/52693877/241557854-e93914ea-32d7-401f-91a8-1d5dabf74f36.jpeg",
     "https://user-images.githubusercontent.com/52693877/241557710-c3c04b42-cb62-4b92-9888-53e08b46aff4.jpeg",
     "https://user-images.githubusercontent.com/52693877/241557703-c36359ef-c529-4ddb-9ff6-6c8ba8d4133d.jpeg",
