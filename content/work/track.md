@@ -17,7 +17,9 @@ I work with a data PM to redesign the platform as part of the Common Traffic Rev
 
 Tracker is a bunch of code integrated into Front End/BE. Once users triggered certain events (e.g. click something or view a new page), event handler methods are called, then we can collect the data to know users' behaviors with our products.
 
-<img src="https://user-images.githubusercontent.com/52693877/240526205-2c3ef334-4177-4a6d-9aa6-f98213095878.png" width="75%" >
+<br>
+
+<img src="https://user-images.githubusercontent.com/52693877/243146520-273ffe4e-4384-49bb-ad3e-85ca88216b84.png" width="75%" >
 
 ### What is TMS?
 
@@ -65,7 +67,7 @@ In the first step, I talked with a data PM to get background and basic informati
 * Product abilities update;
 * Expected results;
 
-One core product ability update for TMS is that they are going to change the location data structure:​
+In this project, we are focusing on updating one core product ability for TMS: the **location data structure**. While the approach to changing the data structure is not yet fully confirmed by the data PMs, we aim to verify its feasibility through user research and remain open to alternative solutions.
 
 <div class="mapping">
   <div></div>
@@ -95,34 +97,32 @@ One core product ability update for TMS is that they are going to change the loc
 
 <img src="https://user-images.githubusercontent.com/52693877/240936098-3879da7d-891e-4dc6-b8f8-62ba4f6dbfdb.png" width="100%" >
 
-
-
-But data PMs are not 100% sure about this approach, so we need to verify its feasibility in user research, and they are open to better solutions.
-
-We also aligned our responsibilities and cooperation method. My partner is a former engineer and new to PM position, she made it clear that she will focus on the **data structure design**, insuring **dev resources**, and communication with other stakeholders. So I was supposed to design the **workflows** as well as **UI/UX**.
+To ensure smooth collaboration, we have defined our **responsibilities** and **cooperation methods**. My partner, a former engineer transitioning to a PM role, will primarily handle the data structure design, resource allocation, and communication with other stakeholders. Meanwhile, I'm going to designing the workflows and ensuring usibility.
 
 ### Step 2: Figure Out real User Needs Through Contextual Inquiry
 
-To limit the length of this article, I'll just narrow down the narrative scope to **Creation & Management** flow, whose main users are FPM & BI & Data PM.
+To limit the length of this article, I'll just narrow down the narrative scope to Creation & Management flow, whose main users are FPM & BI & Data PM.
 
-In this step, I intend to **clarify user intentions and task details** with target user groups. Also to find answers to my questions generated in Step 1:
+In this step, my focus was on gaining clarity regarding **user intentions and task details** by engaging with the target user groups. Additionally, I aimed to find answers to the questions that arose in Step 1.
 
-I invited data PM and FE dev to join some of my observation sessions so I can cover more potential issues. We got a long [observation record](https://docs.google.com/spreadsheets/d/1szDVD3wMfF-gcHMUBiAo4EW2-J4p72SOqR61KNT2Mmg/edit?usp=sharing) and some key insights here:
+ I invited the data PM and FE dev to participate in several observation sessions. This allowed us to address a broader range of potential issues.  We got a long [observation record](https://docs.google.com/spreadsheets/d/1szDVD3wMfF-gcHMUBiAo4EW2-J4p72SOqR61KNT2Mmg/edit?usp=sharing) and some key insights here:
 
-#### 1. Tasks for each roles are quite different:
+#### 1.Varied Tasks for Different Roles:
 
-  * FPMs are supposed to create position info because they are the business owner and know the content best;
-  * BI & PA do most of the analysis work, they are supposed to design high-quality tracking events for SQL queries and are able to reuse across features; batch editing is important for them;
-  * Data PM: Approve/reject new tracking requests; They are the only ones who define new operation;
+  * **FPMs**: as the business owners with a deep understanding of the content, are primarily responsible for creating position information.
+  * **BI & PA**: handle extensive analysis work and are responsible for designing high-quality tracking events for SQL queries that can be reused across features. Batch editing is particularly important for them.
+  * **Data PM**: Approve/reject new tracking requests; and they are the sole role in defining new operations.
 
-#### 2. Frequency of updates on each data point are also different:
+#### 2. Different Frequencies of Data Point Updates:
 
-  * Register new position is quite rare so usually we don't change the Page_level & Section_level info;
-  * Most of the tracking updates happened at **Target_level**, eg: update data field;
+  * Registering new positions is relatively **rare**. People don't Usually change the Page_level & Section_level info;
+  * Most of the tracking updates occur at the Target_level, involving **frequent** modifications to specific data fields.
 
-#### 3. Migration is a must for all business groups:
+#### 3. Necessity of Migration for All Business Groups:
 
-  * All teams have a large number of tracking in use and will continue to use them, but they also admit that there are too many aborted trackings in the system that are almost impossible to weed out.
+  * All teams rely heavily on existing tracking data and will continue to do so.
+
+  * However, there is a consensus among teams that there are numerous abandoned or **outdated trackings** within the system that are challenging to identify and remove.
 
 I also got answers for my previous questions:
 
@@ -134,11 +134,11 @@ I also got answers for my previous questions:
 
 #### 2. How do they do cross-page traffic analysis?
 
-  * PMs use the Pages function from TIDAL, but it's hard to find all tracking points, so basically just page traffic, for point level analysis they need to ask BI to write SQL query to get all data.
+  * PMs use the Pages function from TIDAL, but it's hard to find all tracking points, so basically just page traffic. For point level analysis they always need to ask BI to write SQL query to get all data.
 
 ### Step 3: Map out user journey, reveal pain points and generate solutions
 
-After getting all the necessary task details, we organized the behavior for each role step-by-step, talked about the pain points and the underline reasons behind them, and what we can do to help with :
+After obtaining the necessary task details, we proceeded to organize the behavior for each role in a step-by-step manner. During this process, we identified the pain points experienced by users and delved into the underlying reasons behind them, brainstormed potential solutions to address these pain points:
 
 <div class="tracking">
 <div>
@@ -159,12 +159,12 @@ After getting all the necessary task details, we organized the behavior for each
 <div>
 <img src="https://user-images.githubusercontent.com/52693877/240938587-bf2486bc-1c78-4117-a3bb-01f0d6fe8947.png" width="100%" >
 </div>
+
 </div>
 
+During our discussions, the ideas surrounding the page structure and features for the new TMS began to take shape. 
 
-Through this discussion, the ideas of page structure and features for the new TMS gradually took shape.
-
-We made some changes to the tracking data structure so that the concept becomes more straightforward for ordinary user, and based on that structure we can build a system where different roles are able to manage their tasks efficiently.
+We made some changes to the **tracking data structure** so that the concept becomes more straightforward for ordinary user. This new structure allows for the efficient management of tasks by different roles within the system. 
 
 <div class="mapping">
   <div></div>
@@ -195,11 +195,13 @@ We made some changes to the tracking data structure so that the concept becomes 
 
 <img src="https://user-images.githubusercontent.com/52693877/240951294-f71cb011-1d2d-4cf7-a84e-d4097bed64f9.png" width="100%" >
 
-We **finalized product features**, and also shared initial ideas about key UX (e.g: position table view) so that she can conduct feasibility study with devs at a very early stage.
+We **finalized product features**, and also shared initial prototype for key UX (e.g: position table view) so that she can conduct feasibility study with devs at a very early stage.
 
 ### Step 4 Finalize Workflow
 
-According to the adjusted product function and data format, we divide the whole tracking assets management module into four parts to **meet the operation needs of different users with different tasks and frequencies**.
+According to the adjusted product function and data format, we divide the whole tracking assets management module into **four parts**.
+
+This division allows us to cater to the specific operational needs of different users who have varying tasks and frequencies. By tailoring each part to accommodate the unique requirements of different user groups, we aim to optimize the overall user experience and improve efficiency in managing tracking assets.
 
 #### 1. Position Library ( FPM; rarely use) 
 - B_page: the page info
@@ -218,14 +220,18 @@ According to the adjusted product function and data format, we divide the whole 
 
 - A combination of position, target and operation.
 
-Finalised workflow:
 
 <img src="https://user-images.githubusercontent.com/52693877/240955824-a9cd71e8-5b33-43ea-b6be-827492aa96dc.png" width="100%" >
 
 ### Step 5 Low-to-High fidelity prototype
 
+In the final step, I transitioned low-fidelity sketch to high-fidelity design files that are ready for development by utilizing Shopee enterprise design system.
+
 <img src="https://user-images.githubusercontent.com/52693877/240955814-911e70de-eb6f-4130-9178-4d3049d76f53.png" width="100%" >
 <br>
+
+For the newly introduced UX( Map View for example), I took the responsibility of building the component from scratch, ensuring it aligned with our design principles and met the needs of our users. After polishing the component, we integrated it into our existing design system. 
+
 <img src="https://user-images.githubusercontent.com/52693877/240955801-a1c02e12-a424-44f8-9ed5-ded994ebcaff.png" width="100%" >
 <br>
 <img src="https://user-images.githubusercontent.com/52693877/240955782-c3c6b1c8-8d6b-4c5c-b32e-8187bbaf5092.png" width="100%" >
