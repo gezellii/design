@@ -239,4 +239,11 @@ For the newly introduced UX( Map View for example), I took the responsibility of
 <img src="https://user-images.githubusercontent.com/52693877/240955760-eaf11543-c11e-4464-9657-efae7992db7f.png" width="100%" >
 <br>
 
-Full Prototype in Figma: [link](https://www.figma.com/proto/8hA6lqRIbL7IvgKqtDlEjY/TMS-Tracking-Revamp?page-id=24101%3A102438&node-id=24101-102439&viewport=643%2C481%2C0.64&scaling=min-zoom&starting-point-node-id=24101%3A102439&show-proto-sidebar=1)
+Full Prototype in [Figma](https://www.figma.com/proto/8hA6lqRIbL7IvgKqtDlEjY/TMS-Tracking-Revamp?page-id=24101%3A102438&node-id=24101-102439&viewport=643%2C481%2C0.64&scaling=min-zoom&starting-point-node-id=24101%3A102439&show-proto-sidebar=1).
+
+<br>
+
+If you are interested in other features of TMS, we can talk about:
+* [Debug View](https://www.figma.com/file/Ysfvfjx0vRuqIL6pGipTU5/TMS-Debug-View?type=design&node-id=1%3A74&t=WbQTRES4d0c6IJzE-1): A real-time simulation tool for developers to debug newly built tracker.
+* [Live View](https://www.figma.com/file/nFBBiyYTjEYbPQ9fAEEgng/TMS-Live-View?type=design&node-id=540%3A14048&t=PxyYOloN7roROYUX-1): A library that accesses users' real-time operational data for analysis.
+* [TMS Monitor](https://www.figma.com/file/Mtk6VlE890YOSwV2rg0LFZ/Monitoring-Alert-and-Insight?type=design&node-id=157%3A9117&t=ULo77bcMlHqIIrwK-1): A data dashboard helps tracking owners to monitor alert and generate insight.
