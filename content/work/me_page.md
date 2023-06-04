@@ -130,6 +130,8 @@ We explored possible design directions of each module and talked about the diffe
 <img src="https://user-images.githubusercontent.com/52693877/242301870-017a6e15-4805-4d2f-a24f-0d43d85c5235.png">
 <img src="https://user-images.githubusercontent.com/52693877/242301919-b9c08695-e1f1-4756-8609-5c172476bb44.png">
 
+However, after all the work done, there was still two visual options that neither the bosses nor the designers dared to say at 100%, so we left it for AB test.
+
 ## 6. Takeaways
 
 Overall, this project highlights the importance of user-centered design, collaboration, market customization, early feedback, and a harmonious balance between functionality and aesthetics. 
