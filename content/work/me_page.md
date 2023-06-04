@@ -21,7 +21,7 @@ Me Page is a primary tab with an impressive usage rate of 78.9% among active buy
 
 However, over time, the Me Page has become burdened with an increasing number of product entrances, resulting in a bloated and inefficient user experience. This has created a need for a comprehensive review and optimization of the page.
 
-In this project, we aim to streamline the navigation and presentation of product entrances. Our ultimate goal is to create a more intuitive, efficient, and visually appealing Me Page that not only delights users but also significantly boosts the order contribution to Shopee.
+In this project, we aim to streamline the navigation and presentation of product entrances. Our ultimate goal is to create a more intuitive, efficient, and visually appealing Me Page that not only **delights users** but also significantly **boosts the order contribution** to Shopee.
 
 
 </span>
@@ -38,7 +38,7 @@ In this project, we aim to streamline the navigation and presentation of product
 1. With avaiable data we learnt:
    - 85.4% Me Page users are buyers who have made a purchase before. Highly possible that the main scenario brought them to Me Page is to **check order status** after placing orders.
 
-   - Tools (e.g. order/account management) account for **> 70%** of all clicks on Me Page which set the foundation of Me Page positioning.
+   - Tools (e.g. order/account management) account for **> 70%** of all clicks on Me Page, which set the foundation of Me Page positioning.
 
    - Promotion sections (e.g. Buy Again and Campaign circles) account for < 2% of clicks, but draw 30>% complains about Me page.
 
@@ -81,8 +81,8 @@ With thoes business & experience metrics, we not only got a clear understanding 
 
 <img src="https://user-images.githubusercontent.com/52693877/242237136-55eede23-6e77-477e-b830-9eb0932215d6.png">
 
-1. Me Page continues to fulfil its **task-oriented** core function
-2. User traffic on Me Page can be harnessed effectively for promotion campaigns
+1. Fulfil its **task-oriented** core function better.
+2. Leverage its traffic to boost sale.
 
 #### Principle:
 
