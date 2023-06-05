@@ -12,22 +12,14 @@ $text-bg-color: #FCF3C8;
 $body-width: 100%;
 // mobile
 $mobile-width: 600px !default;
-$mobile-navbar-height: 50px !default;
+$tablet-width: 1024px !default;
+$desktop-min-width: 1366px !default;
+$desktop-mid-width: 1512px !default;
+$desktop-max-width: 1728px !default;
 // font
 $font-size: 18px;
 $font-family: sans-serif;
 
-@mixin min-screen($min-width: $mobile-width) {
-    @media screen and (min-width: $min-width) {
-        @content;
-    }
-}
-
-@mixin max-screen($max-width: $body-width) {
-    @media screen and (max-width: $max-width) {
-        @content;
-    }
-}
-
 @import "base";
 @import "components";
+@import "_media";

@@ -1,0 +1,67 @@
+
+@media (width <= $desktop-mid-width) {
+    .container {
+        margin: 0 80px;
+        width: auto;
+    }
+
+    .introduction {
+        margin: 0;
+    }
+
+    .journey {
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .principle {
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    section {
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .image-flow {
+        columns: 2;
+    }
+}
+
+@media (width <= $desktop-min-width) {
+    .container {
+        margin: 0 1rem;
+    }
+
+    .cover {
+        img {
+            float: right;
+            width: 75%;
+        }
+    }
+
+    .principle {
+        flex-direction: column;
+        align-items: center;
+
+        p {
+            max-width: 90%;
+        }
+    }
+
+    .left-draw {
+        img {
+            top: -4rem;
+        }
+    }
+
+    article {
+        flex-direction: column;
+        align-items: center;
+
+        .post {
+            width: 634px;
+        }
+    }
+}

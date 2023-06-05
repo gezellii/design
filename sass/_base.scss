@@ -9,16 +9,6 @@ body {
     font-family: $font-family;
 }
 
-@include max-screen() {
-    body {
-        border-top: 0;
-    }
-
-    .container {
-        box-shadow: -1px -5px -5px $shadow-color;
-    }
-}
-
 ul {
     margin: 0;
     padding: 0;
@@ -42,10 +32,4 @@ iframe {
 
 strong {
     font-weight: 500;
-}
-
-.container {
-    width: 100%;
-    margin: 0 auto;
-    padding-bottom: 4rem;
 }

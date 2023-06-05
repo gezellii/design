@@ -4,8 +4,13 @@ body {
     font-size: 24px;
 }
 
+.container {
+    width: 1548px;
+    margin: 0 auto;
+    padding-bottom: 4rem;
+}
+
 header {
-    width: 1600px;
     margin: 0 auto;
 
     ul {
@@ -17,12 +22,12 @@ header {
         li {
             padding: 35px 50px;
             font-size: 20px;
+            white-space: nowrap;
         }
     }
 }
 
 main {
-    width: 1600px;
     margin: 0 auto;
 }
 
@@ -37,6 +42,7 @@ main {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    column-gap: 1rem;
 }
 
 .introduction {
@@ -152,11 +158,11 @@ main {
 
     .item {
         list-style-type: none;
-        width: 716px;
+        min-width: 716px;
         
         li {
             border: 1px solid #7C4467;
-            border-radius: 40px;
+            border-radius: 3rem;
             background-color: #FFF;
             font-size: 32px;
             line-height: 100%;
@@ -189,7 +195,7 @@ article {
 
     img {
         height: 406px;
-        width: 634px;
+        min-width: 634px;
         object-fit: fill;
     }
     
@@ -422,7 +428,7 @@ h4 {
     display: flex;
     justify-content: space-between;
     font-weight: 200;
-    width: 990px;
+    width: 800px;
 
     .orange-title {
         color: #E75122;
