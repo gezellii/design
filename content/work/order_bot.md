@@ -29,7 +29,7 @@ In this project, we aimed to bring down the **drop rate, transfer to live agent 
 </span>
 </span>
 
-## A bit Background
+## A Bit Background
 
 Over the past six months, the core metrics have been stagnant and remain at the industry average level. Chatbot team tried adjust the model, edited articles in Knowledge Base, but all seem not to be effective. 
 
@@ -51,7 +51,7 @@ Chatbot is a product with complex and interlaced flow, I mapped out the user jou
 <img src="https://user-images.githubusercontent.com/52693877/239735221-206fa1dd-e344-4210-ac4d-669f37e82930.png" >
 
 
-After mapping out the user journey, I asked BI team for the **traffic**,**drop rate**,**resolution rate**,and **CSAT**of each node based on different flow.
+After mapping out the user journey, I asked BI team for the **traffic**,**drop rate**,**resolution rate**,and **CSAT**of each node based on different flow. It also became key metrics that we used to measure the design outcome later.
 
 ### Step 2 Form Hypothesis from Data and Journey Mapping
 
@@ -140,7 +140,9 @@ Along with the movement of our research, solutions came quite naturally for each
 <div><img src="https://user-images.githubusercontent.com/52693877/240286642-b1e23dd7-80b8-49cb-8874-4d5ac2194011.png" ></div>
 </div>
 
-With all A/B test results, the final design we get has the highest performance of **+3.71% in resolution rate**, **- 6.82% in drop rate**, **-2.73% in transfer to live agent rate**. [Link](https://docs.google.com/spreadsheets/d/1d4jLm2_o1jYWMGqTmbin11taxrZAmwDhVp9AEtZ5iZA/edit?usp=sharing)
+## Result
+
+With all A/B test, the final design we chose generates the highest performance of **+3.71% in resolution rate**, **- 6.82% in drop rate**, **-2.73% in transfer to live agent rate**. [Link](https://docs.google.com/spreadsheets/d/1d4jLm2_o1jYWMGqTmbin11taxrZAmwDhVp9AEtZ5iZA/edit?usp=sharing)
 
 Based on the traffic of the order bot in the last three months, the labor cost saved by bringing down the transfer to live agent rate is around 1 million USD/ year( based on ID salary). 
 

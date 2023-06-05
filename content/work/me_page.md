@@ -68,7 +68,7 @@ With thoes business & experience metrics, we not only got a clear understanding 
 
 - Inefficient space allocation caused difficulties in finding desired features
 - No length control resulted in a lengthy page while most users do not scroll down
-- The mixed content and the similar appearance make the content look confusing and difficult to distinguish.
+- The mixed content and the similar appearance make the content look confusing and difficult to distinguish
 - Unwanted promotion sections
 
 #### From business‘ point of view:
@@ -81,14 +81,20 @@ With thoes business & experience metrics, we not only got a clear understanding 
 
 <img src="https://user-images.githubusercontent.com/52693877/242237136-55eede23-6e77-477e-b830-9eb0932215d6.png">
 
-1. Fulfil its **task-oriented** core function better.
-2. Leverage its traffic to boost sale.
+1. Fulfil its **task-oriented** core function better
+2. Leverage its traffic to boost sale
 
 #### Principle:
 
 - Efficient: New design must raise the efficiency of core tasks
 - Concise: Shorten page length to < 1.5 screen
 - Consisten: Maintain a scalable layout and color coding based on Shopee Design System
+
+#### Success metrics :
+
+- Time on Task: Shorter time spent on completing a task
+- Click: Higher click on promoted feature entrances
+- Conversion Rate: Higher order convertion from My Likes & Buy Again
 
 ## 3. Information Architecture:
 

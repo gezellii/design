@@ -54,15 +54,15 @@ From this sitemap we already found some problems such as:
 * Missing functions in the Account system.
 * etc.
 
-To verify our hypothesis, we listed down associated user behaviours, converted them into measurable metrics, then turned to the BI team and customer service team for all we need to prove our thoughts:
+To verify our hypothesis, we listed down associated user behaviours, converted them into **measurable metrics**, then turned to the BI team and customer service team for all we need to prove our thoughts:
 
 <img src="https://user-images.githubusercontent.com/52693877/241350269-f816cb34-b640-4bc9-beb1-9c7c1c6bf39b.png">
 
 The data turned out to support most of our hypothesis:
 
-* Bounce rates and exit rates are normally high throughout all time.
+* **Bounce rates** and **exit rates** are normally high throughout all time.
 * Traffic keeps raising over the past three months.
-* Checkout page has the highest bounce rate, especially in filling address and payment step.
+* Checkout page has the **highest** bounce rate, especially in filling address and payment step.
 * Product page has higher bounce rates but convert better than the homepage.
 * Account page has high bounce rate in Account setting, but amazingly it didn't get too much user complains.
 
@@ -77,11 +77,12 @@ At the same time, we also observed some UI issues during the audit, which we dec
 | EN                                                                                                  | RU                                                                                               | ES                                                                                  |
 | :-------------------------------------------------------------------------------------------------- | :----------------------------------------------------------------------------------------------- | :---------------------------------------------------------------------------------- |
 | <img src="https://user-images.githubusercontent.com/52693877/241350268-d5053cde-95c5-42bf-9918-ad438f81dcdc.png" style=" width:280px">                                                                                         | <img src="https://user-images.githubusercontent.com/52693877/241350267-8f65e412-d7c6-4938-9011-dfad2ed408f2.png" style="width:280px">                                                                                        | <img src="https://user-images.githubusercontent.com/52693877/241350265-384e5d40-60b3-4c8d-9118-e97a65ae2865.png" style="width:280px">                                                                         |
-| **ISABELLA, 27**                                                                                    | **IVANOVICH, 35**                                                                                | **CAMILA, 23**                                                                      |
+| ISABELLA,27                                                                                  | IVANOVICH, 35                                                                                |CAMILA, 23                                                                     |
 | Location: London, UK                                                                                | Location: Moscow, Russia                                                                         | Location: Madrid, Spain                                                             |
 | Enjoy adding pops of colours to her home. Appreciates quality products, but at an affordable price. | Keen to buy some cheap accessories online for his motorcycle. Interested in electronic products. | A young worker with a passion for life. Like colourful trinkets and trendy clothes. |
 
-**Conclusion**: Based on all findings, we feel that the top priorities are the *Homepage & Category*, and the *Checkout & Registration*, Account & Order system should follow as phase 2.
+#### Priority: 
+Based on all findings, we decided that the top priorities sjould be the **Homepage & Category**, and the **Checkout & Registration**, Account & Order system followed as phase 2.
 
 ---
 
@@ -89,30 +90,31 @@ At the same time, we also observed some UI issues during the audit, which we dec
 
 ### Goal
 
-* Bring down drop rate from homepage, and diverse traffic to other pages as desired.
-* Raise order conversion rate.
+* Bring down **drop rate** from homepage
+* **Diverse traffic** to other pages as desired
+* Raise **order conversion rate**
 
 ### Objective
 
-* Provide a clear and consistent category system;
+* Provide a clear and consistent category system
 * Enrich the first two screens to meet the browsing needs of all users (new user/bargain hunter/ return buyer)
-* Display promotion information effectively.
-* Enable shopping from the homepage.
+* Display promotion information effectively
+* Enable shopping from the homepage
 
 ### Solution
 
-* Optimise the interaction of category navigation.
-* Add shortcut entrances to: campaign page / permanent hot-selling category / brands page.
-* Increase the priority of the Flash deal channel.
-* Prioritise high-level information to the top 50% of the page.
-* Always display the price of items.
+* Optimise the interaction of category navigation
+* Add shortcut entrances to: campaign page / permanent hot-selling category / brands page
+* Increase the priority of the Flash deal channel
+* Prioritise high-level information to the top 50% of the page
+* Always display the price of items
 
-We also decide to keep those principles in mind when designing as well as reviewing our solutions:
+We also decide to keep those **principles** in mind when designing as well as reviewing our solutions:
 
-* Move users a step closer to their goal with every click.
-* Users should be aware of where they are going before jumping.
-* Provide a universal way to come back to the homepage.
-* We should test site performance after the change.
+* Move users a step closer to their goal with every click
+* Users should be aware of where they are going before jumping
+* Provide a universal way to come back to the homepage
+* We should test site performance after the change
 
 ### Prototype
 
@@ -145,14 +147,14 @@ With our target audiences' persona we settled down the visual style of our websi
 
 ### Goal
 
-* To bring down bounce rate in the checkout flow.
-* Raise the payment complete rate.
+* To bring down **bounce rate** in the checkout flow
+* Raise the **payment complete rate**
 
 ### Objective
 
-* Provide an all-in-one checkout  process;
-* Reduce redundant steps to lighten mental burden while user filling checkout information;
-* Provide trustworthy payment experience;
+* Provide an all-in-one checkout  process
+* Reduce redundant steps to lighten mental burden while user filling checkout information
+* Provide trustworthy payment experience
 
 ### Solution
 
@@ -207,4 +209,4 @@ In this year-long project, we had almost taken care of every corner of JOYBUY, i
 * ...
 
 It was the very first comperhensive project that built my foundamental understanding of an ecommerce product.
-So even so many years have passed and it now seems that it has a lot to fall short of - especially idealistic - I still have this project here as a memorial to my first job, and it was a happy experience.
+Although many years have passed and it now seems that it has a lot to fall short of - especially idealistic - I still have this project here as a memorial to my first job, and it was a happy journey.

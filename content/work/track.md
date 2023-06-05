@@ -55,8 +55,6 @@ The existing version was built by the development team several years ago without
 </div>
 
 
-
-
 ### Step 1: Clarify goals & functional  hypothesis
 
 In the first step, I talked with a data PM to get background and basic information, as well as a rough idea of what we are going to do. Usually for all my design projects, I would like to get the following information from our first meeting with PMs:
