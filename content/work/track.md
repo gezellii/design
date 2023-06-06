@@ -95,7 +95,7 @@ In this project, we are focusing on updating one core product ability for TMS: t
 
 <img src="https://user-images.githubusercontent.com/52693877/240936098-3879da7d-891e-4dc6-b8f8-62ba4f6dbfdb.png" width="100%" >
 
-To ensure smooth collaboration, we have defined our **responsibilities** and **cooperation methods**. My partner, a former engineer transitioning to a PM role, will primarily handle the data structure design, resource allocation, and communication with other stakeholders. Meanwhile, I'm going to designing the workflows and ensuring usibility.
+To ensure smooth collaboration, we have defined our **responsibilities** and **cooperation methods**. My partner, a former engineer transitioning to a PM role, will primarily handle the data structure design, resource allocation, and communication with other stakeholders. Meanwhile, I'm going to designing the workflows and ensuring usability.
 
 ### Step 2: Figure Out real User Needs Through Contextual Inquiry
 

@@ -35,7 +35,7 @@ In this project, we aim to streamline the navigation and presentation of product
 
 ### 1.1  Understand user behaviours:
 
-1. With avaiable data we learnt:
+1. With available data we learnt:
    - 85.4% Me Page users are buyers who have made a purchase before. Highly possible that the main scenario brought them to Me Page is to **check order status** after placing orders.
 
    - Tools (e.g. order/account management) account for **> 70%** of all clicks on Me Page, which set the foundation of Me Page positioning.
@@ -47,11 +47,11 @@ In this project, we aim to streamline the navigation and presentation of product
 <img src= "https://user-images.githubusercontent.com/52693877/242236536-366ce091-a3c1-477e-9fbb-f044e8ac556f.png">
 
 
-2. We also ranked the click of different functions to know customers’ perference upon our services.
+2. We also ranked the click of different functions to know customers’ preference upon our services.
 
 <img src="https://user-images.githubusercontent.com/52693877/242236551-5fdcc4eb-aec6-45f0-a6ca-eb7b8bb8e076.png" width="90%">
 
-3. To measure the experience, we designed several usibility tests and tested with random customers in different regions,hoping to accumulate basic experience metrics such as **task complete rate, time on task and SCAT**:
+3. To measure the experience, we designed several usability tests and tested with random customers in different regions,hoping to accumulate basic experience metrics such as **task complete rate, time on task and SCAT**:
    - Check order status;
    - Update my address;
    - Buy one item that you liked before;
@@ -88,13 +88,13 @@ With thoes business & experience metrics, we not only got a clear understanding 
 
 - Efficient: New design must raise the efficiency of core tasks
 - Concise: Shorten page length to < 1.5 screen
-- Consisten: Maintain a scalable layout and color coding based on Shopee Design System
+- Consistent: Maintain a scalable layout and color coding based on Shopee Design System
 
 #### Success metrics :
 
 - Time on Task: Shorter time spent on completing a task
 - Click: Higher click on promoted feature entrances
-- Conversion Rate: Higher order convertion from My Likes & Buy Again
+- Conversion Rate: Higher order conversion from My Likes & Buy Again
 
 ## 3. Information Architecture:
 
