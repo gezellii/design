@@ -241,7 +241,11 @@ Full Prototype in [Figma](https://www.figma.com/proto/8hA6lqRIbL7IvgKqtDlEjY/TMS
 
 <br>
 
-If you are interested in other features of TMS, we can talk about:
+After the revamp, our product owners and developers started to construct **an accurate traffic data map cross product lines**, a wider range of users are now able to comprehend and utilize our traffic data in their day-to-day work, leading to improved **data-driven decision-making** and **enhanced productivity** across the organization.
+
+<br>
+
+If you are interested in TMS, we can talk about:
 * [Debug View](https://www.figma.com/file/Ysfvfjx0vRuqIL6pGipTU5/TMS-Debug-View?type=design&node-id=1%3A74&t=WbQTRES4d0c6IJzE-1): A real-time simulation tool for developers to debug newly built tracker.
 * [Live View](https://www.figma.com/file/nFBBiyYTjEYbPQ9fAEEgng/TMS-Live-View?type=design&node-id=540%3A14048&t=PxyYOloN7roROYUX-1): A library that accesses users' real-time operational data for analysis.
 * [TMS Monitor](https://www.figma.com/file/Mtk6VlE890YOSwV2rg0LFZ/Monitoring-Alert-and-Insight?type=design&node-id=157%3A9117&t=ULo77bcMlHqIIrwK-1): A data dashboard helps tracking owners to monitor alert and generate insight.

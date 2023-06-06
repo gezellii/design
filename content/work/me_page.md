@@ -60,7 +60,7 @@ In this project, we aim to streamline the navigation and presentation of product
 
    Testing [Records](https://www.figma.com/file/TEGAFoSlREEcCFfRpaNHGH/Me-Page-Revamp-V1-(Copy)?type=design&node-id=9%3A2270&t=UE2HxkTs17sdYx0X-1)
 
-With thoes business & experience metrics, we not only got a clear understanding of the status quo, but also laid the foundation for **measuring the results** of our following optimization.
+With thoes business & experience metrics, we not only got a clear **understanding of the status quo**, but also laid the foundation for **measuring the results** of our following optimization.
 
 ### 1.2 Summarise pain points:
 
@@ -136,12 +136,14 @@ We explored possible design directions of each module and talked about the diffe
 <img src="https://user-images.githubusercontent.com/52693877/242301870-017a6e15-4805-4d2f-a24f-0d43d85c5235.png">
 <img src="https://user-images.githubusercontent.com/52693877/242301919-b9c08695-e1f1-4756-8609-5c172476bb44.png">
 
-However, after all the work done, there was still two visual options that neither the bosses nor the designers dared to say at 100%, so we left it for AB test.
+However, after all the work done, there was still two visual options that neither the bosses nor the designers dared to say at 100%, so we left it for AB testing.
 
-## 6. Takeaways
+In a small scale A/B testing on whitelisted users, the new design outperforms the previous version regarding **impression** and **click**, we are gradually expanding the testing to obtain a more valid result.
 
-Overall, this project highlights the importance of user-centered design, collaboration, market customization, early feedback, and a harmonious balance between functionality and aesthetics. 
+In the usability testing we also obtained a result indicating that our new design significantly reduced the average **time on task**, especially on finding **My Likes**, which is crucial for order conversion.
 
-For me, among many takeaways that this journey yielded, the most impressive one is **Collaboration and Negotiation**: Managing diverse stakeholders, including higher management and content owners, required effective communication and negotiation skills. By fostering collaboration, presenting compelling arguments, and addressing concerns, we gained buy-in and successfully aligned everyone towards a common goal.
+## 6. Takeaways 
 
-These lessons learned can be applied to future projects, guiding us towards creating exceptional user experiences and achieving business objectives.
+For me, among many takeaways that this journey yielded, the most impressive one is **Collaboration and Negotiation**: 
+
+Managing diverse stakeholders, including higher management and content owners require effective communication and negotiation skills. And only by fostering collaboration, presenting compelling arguments and addressing concerns, we could gain buy-in and successfully align everyone towards a common goal.
