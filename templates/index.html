@@ -55,7 +55,10 @@
 
         <main>
             {% block content %}
-            <div class="cover"><img src="cover_girl.png" alt="cover" loading="lazy"></div>
+            <div class="cover">
+                <img src="cover_girl.png" id="coverImageDefault" alt="girl with plane in her hand" loading="lazy">
+                <img src="cover_girl_plane_released.png" id="coverImageActive" alt="girl with plane released" loading="lazy" style="display: none;">
+            </div>
             <div class="greet">Hi there!</div>
             <div class="introduction">
                 <p>
@@ -181,6 +184,8 @@
     <script>
         const plane = document.getElementById("plane");
         const path = document.getElementById("curve");
+        const coverImageDefault = document.getElementById("coverImageDefault");
+        const coverImageActive = document.getElementById("coverImageActive");
 
         const pathLength = path.getTotalLength();
         const START_THRESHOLD = 0.02; // do not display the flying plane until it starts scrolling
@@ -188,22 +193,23 @@
         let lastScrollPos = 0;
         const handleScroll = function () {
             const boundingRect = path.getBoundingClientRect();
-        const scrollPercent =
-            (window.pageYOffset || document.documentElement.scrollTop) /
-            (path.getBoundingClientRect().height)
+            const scrollPercent =
+                (window.pageYOffset || document.documentElement.scrollTop) /
+                (path.getBoundingClientRect().height);
 
             const point = path.getPointAtLength(scrollPercent * pathLength);
-            
+
             const tangent = path.getPointAtLength((scrollPercent + 0.01) * pathLength);
             const angle = Math.atan2(tangent.y - point.y, tangent.x - point.x) * 180 / Math.PI;
             const direction = (window.pageYOffset > lastScrollPos) ? '' : 'rotateY(180deg)';
             lastScrollPos = window.pageYOffset;
 
+            coverImageDefault.style.display = scrollPercent > START_THRESHOLD ? 'none' : 'block';
+            coverImageActive.style.display = scrollPercent > START_THRESHOLD ? 'block' : 'none';
             plane.style.opacity = scrollPercent < START_THRESHOLD ? 0 : 1;
             plane.style.left = `calc(${point.x}px + 50% - 810px)`;
-            plane.style.top = (point.y + 300) + "px";
+            plane.style.top = (point.y + 350) + "px";
             plane.style.transform = `rotate(${angle}deg) ${direction}`;
-
         };
 
         const throttle = (func, limit) => {
