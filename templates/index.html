@@ -219,7 +219,29 @@
             }
         }
 
-        window.onscroll = throttle(handleScroll, 50);
+        let planeActivated = false;
+        const throttledHandleScroll = throttle(handleScroll, 50);
+        const attachPlaneEvent = () => {
+            window.addEventListener('scroll', throttledHandleScroll)
+            planeActivated = true;
+        }
+        const detachPlaneEvent = () => {
+            window.removeEventListener('scroll', throttledHandleScroll)
+            planeActivated = false;
+        }
+
+
+        if (document.documentElement.clientWidth >= 1366) {
+            attachPlaneEvent();
+        }
+
+        window.onresize = (newSize) => {
+            if (document.documentElement.clientWidth >= 1366) {
+                !planeActivated && attachPlaneEvent();
+            } else {
+                planeActivated && detachPlaneEvent();
+            }
+        }
     </script>
 </body>
 
