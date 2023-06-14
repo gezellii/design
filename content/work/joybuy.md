@@ -139,6 +139,15 @@ With our target audiences' persona we settled down the visual style of our websi
         <img src="https://user-images.githubusercontent.com/52693877/241350228-a121a178-722a-48c8-a271-9c4cb9963ea8.png">
     </div>
 </div>
+
+<br>
+
+App version followed up after the PC revamp
+
+<br>
+
+<img src="https://user-images.githubusercontent.com/52693877/245955382-a4d1eac1-5083-4e60-b9aa-a3f800121d12.png">
+
 <br>
 
 ---

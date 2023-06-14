@@ -3,7 +3,7 @@ title = "Me Page Revamp"
 date = "2023-04-01"
 [extra]
 labels = ["App"]
-image = "https://user-images.githubusercontent.com/52693877/241539575-1674ed48-1d07-4e84-99d2-a3d9ad96af19.png"
+image = "https://user-images.githubusercontent.com/52693877/245955799-9d073e36-5622-4619-970c-aa3c4a4514ba.png"
 summary = """In this whole revamp of Shopee My Profile Page, we communicated across many stakeholders with business data analysis and user experience data measurement, and finally reached an agreement and got our new design approved by the higher managements successfully.
 """
 +++
