@@ -1,7 +1,7 @@
 
 @media (width <= $desktop-mid-width) {
     .container {
-        margin: 0 80px;
+        margin: 0 80 px;
         width: auto;
     }
 
@@ -31,7 +31,7 @@
 
 @media (width <= $desktop-min-width) {
     .container {
-        margin: 0 1rem;
+        margin: 0 1 rem;
     }
 
     .cover {
